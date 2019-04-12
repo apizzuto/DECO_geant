@@ -1,0 +1,2042 @@
+# Allpix Squared ASCII data - https://cern.ch/allpix-squared
+
+=== 1 ===
+--- mydetector ---
+PixelHit 1237, 948, 101.498, 0
+PixelHit 1238, 949, 112.524, 0
+PixelHit 1238, 950, 92.7395, 0
+PixelHit 1239, 950, 256.116, 0
+PixelHit 1239, 952, 108.592, 0
+PixelHit 1240, 948, 90.1405, 0
+PixelHit 1240, 949, 153.924, 0
+PixelHit 1240, 950, 326.325, 0
+PixelHit 1240, 951, 329.625, 0
+PixelHit 1240, 952, 213.959, 0
+PixelHit 1241, 947, 101.71, 0
+PixelHit 1241, 948, 241.565, 0
+PixelHit 1241, 949, 108.402, 0
+PixelHit 1241, 951, 191.601, 0
+PixelHit 1242, 949, 58.5589, 0
+PixelHit 1242, 950, 246.665, 0
+PixelHit 1242, 951, 139.647, 0
+PixelHit 1244, 952, 100.259, 0
+PixelHit 1246, 950, 83.6367, 0
+=== 2 ===
+--- mydetector ---
+PixelHit 1303, 922, 67.2486, 0
+PixelHit 1304, 921, 160.131, 0
+PixelHit 1304, 923, 181.862, 0
+PixelHit 1305, 920, 215.651, 0
+PixelHit 1305, 921, 503.231, 0
+PixelHit 1305, 922, 242.479, 0
+PixelHit 1305, 923, 129.981, 0
+PixelHit 1305, 924, 109.68, 0
+PixelHit 1306, 920, 302.281, 0
+PixelHit 1306, 921, 569.726, 0
+PixelHit 1306, 922, 282.747, 0
+PixelHit 1306, 923, 116.533, 0
+PixelHit 1307, 920, 290.498, 0
+PixelHit 1307, 921, 213.84, 0
+PixelHit 1307, 922, 144.476, 0
+PixelHit 1309, 920, 125.402, 0
+PixelHit 1310, 920, 55.4168, 0
+=== 3 ===
+--- mydetector ---
+PixelHit 1306, 917, 105.745, 0
+PixelHit 1306, 919, 199.711, 0
+PixelHit 1307, 913, 113.646, 0
+PixelHit 1307, 914, 45.7946, 0
+PixelHit 1307, 917, 86.0674, 0
+PixelHit 1308, 914, 134.354, 0
+PixelHit 1308, 915, 253.843, 0
+PixelHit 1308, 916, 399.492, 0
+PixelHit 1308, 917, 126.329, 0
+PixelHit 1309, 913, 193.877, 0
+PixelHit 1309, 914, 185.597, 0
+PixelHit 1309, 915, 145.178, 0
+PixelHit 1309, 916, 303.465, 0
+PixelHit 1309, 917, 72.0956, 0
+PixelHit 1309, 918, 238.768, 0
+PixelHit 1310, 918, 134.6, 0
+=== 4 ===
+--- mydetector ---
+PixelHit 1266, 933, 93.4386, 0
+PixelHit 1267, 931, 124.761, 0
+PixelHit 1268, 931, 125.388, 0
+PixelHit 1268, 932, 384.139, 0
+PixelHit 1268, 933, 145.689, 0
+PixelHit 1268, 934, 129.282, 0
+PixelHit 1269, 930, 82.8363, 0
+PixelHit 1269, 931, 103.257, 0
+PixelHit 1269, 932, 330.068, 0
+PixelHit 1270, 932, 98.1846, 0
+PixelHit 1270, 933, 77.4997, 0
+PixelHit 1271, 930, 255.785, 0
+PixelHit 1271, 933, 73.922, 0
+=== 5 ===
+--- mydetector ---
+PixelHit 1284, 944, 223.785, 0
+PixelHit 1285, 942, 236.688, 0
+PixelHit 1286, 941, 45.9869, 0
+PixelHit 1286, 942, 204.883, 0
+PixelHit 1286, 943, 250.698, 0
+PixelHit 1286, 944, 79.0325, 0
+PixelHit 1287, 940, 102.328, 0
+PixelHit 1287, 941, 172.635, 0
+PixelHit 1287, 942, 360.437, 0
+PixelHit 1287, 943, 63.4147, 0
+PixelHit 1287, 946, 89.9155, 0
+PixelHit 1288, 939, 134.959, 0
+PixelHit 1288, 940, 107.211, 0
+PixelHit 1289, 942, 155.72, 0
+PixelHit 1289, 943, 98.1402, 0
+=== 6 ===
+--- mydetector ---
+PixelHit 1359, 983, 123.408, 0
+PixelHit 1359, 986, 63.448, 0
+PixelHit 1359, 987, 127.437, 0
+PixelHit 1360, 983, 164.233, 0
+PixelHit 1360, 984, 146.192, 0
+PixelHit 1360, 985, 95.0905, 0
+PixelHit 1360, 986, 85.6797, 0
+PixelHit 1361, 984, 315.901, 0
+PixelHit 1361, 985, 282.021, 0
+PixelHit 1362, 983, 396.738, 0
+PixelHit 1362, 984, 388.595, 0
+PixelHit 1362, 985, 94.0103, 0
+PixelHit 1362, 988, 113.183, 0
+PixelHit 1363, 983, 274.583, 0
+PixelHit 1363, 984, 85.7486, 0
+PixelHit 1363, 985, 40.1236, 0
+PixelHit 1363, 987, 119.548, 0
+PixelHit 1364, 983, 167.835, 0
+=== 7 ===
+--- mydetector ---
+PixelHit 1266, 968, 317.725, 0
+PixelHit 1266, 969, 162.827, 0
+PixelHit 1266, 973, 104.854, 0
+PixelHit 1267, 968, 135.954, 0
+PixelHit 1267, 969, 282.149, 0
+PixelHit 1267, 970, 105.37, 0
+PixelHit 1267, 971, 79.446, 0
+PixelHit 1268, 966, 78.2142, 0
+PixelHit 1268, 968, 257.074, 0
+PixelHit 1268, 969, 97.6243, 0
+PixelHit 1268, 970, 208.562, 0
+PixelHit 1268, 971, 73.599, 0
+PixelHit 1268, 973, 69.3097, 0
+PixelHit 1269, 968, 89.957, 0
+PixelHit 1269, 969, 308.047, 0
+PixelHit 1269, 971, 75.2778, 0
+PixelHit 1270, 969, 88.1813, 0
+PixelHit 1270, 970, 267.305, 0
+PixelHit 1270, 971, 85.7266, 0
+PixelHit 1270, 972, 261.165, 0
+=== 8 ===
+--- mydetector ---
+PixelHit 1254, 985, 118.318, 0
+PixelHit 1255, 984, 180.606, 0
+PixelHit 1255, 985, 102.112, 0
+PixelHit 1255, 986, 134.023, 0
+PixelHit 1256, 983, 126.83, 0
+PixelHit 1256, 984, 290.766, 0
+PixelHit 1256, 985, 528.517, 0
+PixelHit 1257, 983, 96.8382, 0
+PixelHit 1257, 984, 187.869, 0
+PixelHit 1257, 986, 88.2113, 0
+PixelHit 1259, 984, 142.126, 0
+PixelHit 1260, 986, 165.275, 0
+=== 9 ===
+--- mydetector ---
+PixelHit 1248, 965, 253.083, 0
+PixelHit 1248, 967, 161.042, 0
+PixelHit 1249, 968, 57.1198, 0
+PixelHit 1250, 967, 291.304, 0
+PixelHit 1251, 966, 223.369, 0
+PixelHit 1251, 967, 483.805, 0
+PixelHit 1251, 968, 188.218, 0
+PixelHit 1252, 963, 140.063, 0
+PixelHit 1252, 966, 330.496, 0
+PixelHit 1252, 967, 363.848, 0
+PixelHit 1252, 968, 418.783, 0
+PixelHit 1253, 966, 147.795, 0
+PixelHit 1253, 967, 276.35, 0
+PixelHit 1253, 968, 318.345, 0
+PixelHit 1253, 969, 74.2724, 0
+PixelHit 1253, 970, 61.644, 0
+PixelHit 1254, 966, 75.2561, 0
+PixelHit 1255, 969, 64.3461, 0
+=== 10 ===
+--- mydetector ---
+PixelHit 1251, 971, 58.3799, 0
+PixelHit 1252, 971, 72.7205, 0
+PixelHit 1253, 970, 383.707, 0
+PixelHit 1253, 974, 123.482, 0
+PixelHit 1254, 969, 92.696, 0
+PixelHit 1254, 970, 189.198, 0
+PixelHit 1254, 971, 63.3351, 0
+PixelHit 1255, 971, 346.356, 0
+PixelHit 1255, 972, 85.9059, 0
+PixelHit 1257, 965, 78.9964, 0
+PixelHit 1257, 968, 105.848, 0
+=== 11 ===
+--- mydetector ---
+PixelHit 1265, 932, 118.392, 0
+PixelHit 1266, 933, 58.3287, 0
+PixelHit 1266, 935, 103.337, 0
+PixelHit 1266, 936, 179.563, 0
+PixelHit 1267, 934, 244.148, 0
+PixelHit 1268, 933, 42.5154, 0
+PixelHit 1268, 934, 391.865, 0
+PixelHit 1268, 935, 146.24, 0
+PixelHit 1269, 931, 288.761, 0
+=== 12 ===
+--- mydetector ---
+PixelHit 1288, 983, 279.815, 0
+PixelHit 1288, 985, 135.684, 0
+PixelHit 1288, 986, 112.123, 0
+PixelHit 1289, 981, 269.016, 0
+PixelHit 1289, 984, 444.285, 0
+PixelHit 1289, 985, 254.498, 0
+PixelHit 1290, 982, 51.1858, 0
+PixelHit 1290, 984, 243.678, 0
+PixelHit 1290, 985, 241.924, 0
+PixelHit 1290, 986, 201.514, 0
+PixelHit 1291, 984, 151.852, 0
+PixelHit 1291, 985, 161.608, 0
+PixelHit 1292, 984, 98.5215, 0
+PixelHit 1292, 985, 89.9369, 0
+PixelHit 1293, 985, 115.319, 0
+=== 13 ===
+--- mydetector ---
+PixelHit 1281, 950, 80.3193, 0
+PixelHit 1281, 951, 152.444, 0
+PixelHit 1282, 948, 235.421, 0
+PixelHit 1283, 949, 106.678, 0
+PixelHit 1283, 950, 160.274, 0
+PixelHit 1283, 954, 113.484, 0
+PixelHit 1284, 949, 160.37, 0
+PixelHit 1284, 950, 556.163, 0
+PixelHit 1284, 951, 267.784, 0
+PixelHit 1285, 950, 173.021, 0
+PixelHit 1285, 953, 63.5302, 0
+PixelHit 1286, 948, 111.874, 0
+PixelHit 1287, 951, 93.509, 0
+PixelHit 1287, 953, 81.9063, 0
+=== 14 ===
+--- mydetector ---
+PixelHit 1318, 1006, 136.003, 0
+PixelHit 1318, 1007, 50.9506, 0
+PixelHit 1319, 1005, 123.005, 0
+PixelHit 1319, 1009, 146.613, 0
+PixelHit 1320, 1007, 222.201, 0
+PixelHit 1320, 1008, 202.455, 0
+PixelHit 1320, 1009, 299.29, 0
+PixelHit 1321, 1006, 324.826, 0
+PixelHit 1321, 1007, 696.522, 0
+PixelHit 1321, 1008, 248.857, 0
+PixelHit 1321, 1009, 103.961, 0
+PixelHit 1322, 1006, 57.3397, 0
+PixelHit 1322, 1007, 219.661, 0
+PixelHit 1322, 1008, 358.899, 0
+PixelHit 1323, 1005, 171.143, 0
+PixelHit 1323, 1007, 183.043, 0
+PixelHit 1323, 1008, 220.614, 0
+PixelHit 1324, 1007, 72.025, 0
+=== 15 ===
+--- mydetector ---
+PixelHit 1278, 992, 82.8104, 0
+PixelHit 1279, 994, 121.715, 0
+PixelHit 1279, 995, 118.993, 0
+PixelHit 1280, 994, 267.716, 0
+PixelHit 1280, 995, 103.435, 0
+PixelHit 1281, 993, 258.778, 0
+PixelHit 1281, 994, 439.664, 0
+PixelHit 1282, 992, 131.127, 0
+PixelHit 1282, 993, 258.89, 0
+PixelHit 1282, 994, 113.707, 0
+PixelHit 1282, 996, 100.766, 0
+PixelHit 1282, 997, 184.235, 0
+PixelHit 1283, 993, 81.1892, 0
+=== 16 ===
+--- mydetector ---
+PixelHit 1241, 913, 208.143, 0
+PixelHit 1241, 916, 155.776, 0
+PixelHit 1242, 910, 217.333, 0
+PixelHit 1242, 912, 145.39, 0
+PixelHit 1242, 913, 147.038, 0
+PixelHit 1242, 914, 121.181, 0
+PixelHit 1242, 915, 58.907, 0
+PixelHit 1243, 913, 287.528, 0
+PixelHit 1243, 914, 608.185, 0
+PixelHit 1243, 918, 49.7725, 0
+PixelHit 1244, 914, 190.753, 0
+PixelHit 1244, 915, 261.62, 0
+PixelHit 1244, 918, 144.511, 0
+PixelHit 1245, 912, 141.045, 0
+PixelHit 1245, 913, 56.1741, 0
+PixelHit 1245, 917, 113.645, 0
+PixelHit 1247, 912, 117.824, 0
+PixelHit 1247, 914, 220.627, 0
+=== 17 ===
+--- mydetector ---
+PixelHit 1331, 969, 62.9053, 0
+PixelHit 1333, 965, 86.8796, 0
+PixelHit 1334, 967, 115.505, 0
+PixelHit 1335, 967, 255.675, 0
+PixelHit 1335, 968, 151.48, 0
+PixelHit 1335, 969, 99.8871, 0
+PixelHit 1335, 970, 248.656, 0
+PixelHit 1336, 965, 198.109, 0
+PixelHit 1336, 966, 77.892, 0
+PixelHit 1336, 967, 462.819, 0
+PixelHit 1336, 968, 272.624, 0
+PixelHit 1336, 969, 130.714, 0
+PixelHit 1336, 970, 105.085, 0
+PixelHit 1336, 971, 48.5393, 0
+PixelHit 1337, 965, 148.335, 0
+PixelHit 1337, 966, 133.446, 0
+PixelHit 1337, 967, 225.293, 0
+PixelHit 1337, 968, 72.2389, 0
+PixelHit 1337, 969, 65.9935, 0
+PixelHit 1338, 966, 228.64, 0
+PixelHit 1338, 967, 87.472, 0
+PixelHit 1338, 968, 225.542, 0
+PixelHit 1338, 969, 122.233, 0
+PixelHit 1338, 970, 123.855, 0
+PixelHit 1339, 965, 168.609, 0
+PixelHit 1339, 966, 249.834, 0
+PixelHit 1339, 973, 170.864, 0
+PixelHit 1340, 967, 94.941, 0
+=== 18 ===
+--- mydetector ---
+PixelHit 1299, 935, 155.922, 0
+PixelHit 1299, 937, 146.427, 0
+PixelHit 1300, 936, 206.796, 0
+PixelHit 1301, 934, 58.9712, 0
+PixelHit 1301, 935, 227.695, 0
+PixelHit 1301, 936, 549.994, 0
+PixelHit 1301, 937, 539.659, 0
+PixelHit 1301, 938, 65.5687, 0
+PixelHit 1301, 939, 277.844, 0
+PixelHit 1302, 935, 129.645, 0
+PixelHit 1302, 936, 584.273, 0
+PixelHit 1302, 937, 523.521, 0
+PixelHit 1302, 938, 116.418, 0
+PixelHit 1303, 935, 116.666, 0
+PixelHit 1303, 937, 299.665, 0
+PixelHit 1304, 935, 231.251, 0
+=== 19 ===
+--- mydetector ---
+PixelHit 1327, 954, 438.685, 0
+PixelHit 1327, 955, 71.4689, 0
+PixelHit 1328, 951, 512.093, 0
+PixelHit 1328, 952, 609.209, 0
+PixelHit 1328, 953, 362.678, 0
+PixelHit 1328, 954, 447.524, 0
+PixelHit 1328, 955, 344.315, 0
+PixelHit 1328, 956, 129.958, 0
+PixelHit 1329, 950, 151.136, 0
+PixelHit 1329, 951, 142.199, 0
+PixelHit 1329, 952, 1026.38, 0
+PixelHit 1329, 953, 600.848, 0
+PixelHit 1329, 954, 82.3661, 0
+PixelHit 1329, 955, 221.81, 0
+PixelHit 1329, 956, 226.344, 0
+PixelHit 1330, 951, 76.4821, 0
+PixelHit 1330, 952, 343.724, 0
+PixelHit 1330, 953, 231.28, 0
+PixelHit 1330, 954, 76.1061, 0
+PixelHit 1330, 955, 230.867, 0
+PixelHit 1330, 956, 247.84, 0
+PixelHit 1331, 952, 116.476, 0
+PixelHit 1331, 953, 188.568, 0
+PixelHit 1331, 954, 105.896, 0
+PixelHit 1331, 955, 188.317, 0
+PixelHit 1331, 956, 88.7926, 0
+PixelHit 1331, 957, 141.011, 0
+PixelHit 1331, 959, 242.026, 0
+PixelHit 1332, 954, 228.009, 0
+PixelHit 1332, 955, 320.961, 0
+PixelHit 1332, 956, 462.953, 0
+PixelHit 1333, 956, 233.032, 0
+PixelHit 1333, 957, 311.27, 0
+PixelHit 1333, 958, 191.509, 0
+PixelHit 1334, 955, 165.694, 0
+PixelHit 1334, 956, 153.998, 0
+PixelHit 1335, 952, 129.705, 0
+PixelHit 1335, 956, 235.89, 0
+PixelHit 1335, 957, 240.663, 0
+PixelHit 2507, 78, 82.7189, 0
+PixelHit 2507, 80, 205.778, 0
+PixelHit 2508, 77, 81.2175, 0
+PixelHit 2509, 78, 155.572, 0
+PixelHit 2512, 77, 133.184, 0
+PixelHit 2515, 77, 128.778, 0
+PixelHit 2515, 78, 50.3323, 0
+PixelHit 2518, 75, 87.6995, 0
+PixelHit 2518, 77, 60.5468, 0
+PixelHit 2520, 77, 105.978, 0
+PixelHit 2520, 78, 93.9138, 0
+PixelHit 2521, 77, 206.456, 0
+PixelHit 2522, 78, 174.695, 0
+PixelHit 2523, 73, 88.5339, 0
+PixelHit 2523, 74, 103.06, 0
+PixelHit 2523, 75, 260.55, 0
+PixelHit 2524, 74, 91.1058, 0
+PixelHit 2524, 75, 50.1023, 0
+PixelHit 2525, 75, 95.6945, 0
+PixelHit 2526, 76, 209.311, 0
+PixelHit 2527, 76, 66.1589, 0
+PixelHit 2528, 72, 250.394, 0
+PixelHit 2528, 74, 59.131, 0
+PixelHit 2529, 72, 122.081, 0
+PixelHit 2530, 72, 61.7663, 0
+PixelHit 2531, 72, 134.64, 0
+PixelHit 2532, 70, 76.4212, 0
+PixelHit 2533, 71, 54.3042, 0
+PixelHit 2534, 71, 124.513, 0
+PixelHit 2535, 70, 81.5435, 0
+PixelHit 2537, 68, 222.113, 0
+=== 20 ===
+--- mydetector ---
+PixelHit 1305, 943, 86.3017, 0
+PixelHit 1307, 943, 76.2588, 0
+PixelHit 1307, 944, 323.377, 0
+PixelHit 1308, 943, 214.273, 0
+PixelHit 1308, 944, 268.236, 0
+PixelHit 1308, 945, 216.346, 0
+PixelHit 1309, 944, 334.927, 0
+PixelHit 1309, 946, 104.462, 0
+PixelHit 1311, 945, 221.243, 0
+PixelHit 1312, 945, 164.23, 0
+=== 21 ===
+--- mydetector ---
+PixelHit 1269, 1033, 186.703, 0
+PixelHit 1270, 1032, 105.606, 0
+PixelHit 1271, 1028, 56.8609, 0
+PixelHit 1271, 1030, 117.308, 0
+PixelHit 1271, 1031, 316.375, 0
+PixelHit 1271, 1032, 176.666, 0
+PixelHit 1271, 1033, 94.927, 0
+PixelHit 1272, 1030, 442.356, 0
+PixelHit 1272, 1031, 452.628, 0
+PixelHit 1272, 1032, 255.219, 0
+PixelHit 1272, 1033, 60.7207, 0
+PixelHit 1273, 1026, 70.304, 0
+PixelHit 1273, 1028, 76.7478, 0
+PixelHit 1273, 1029, 166.113, 0
+PixelHit 1273, 1030, 365.401, 0
+PixelHit 1273, 1031, 579.341, 0
+PixelHit 1273, 1032, 497.519, 0
+PixelHit 1274, 1029, 101.215, 0
+PixelHit 1274, 1030, 171.462, 0
+PixelHit 1274, 1031, 204.379, 0
+PixelHit 1274, 1032, 82.5614, 0
+PixelHit 1275, 1031, 145.845, 0
+PixelHit 1276, 1033, 136.163, 0
+=== 22 ===
+--- mydetector ---
+PixelHit 1287, 1002, 76.8974, 0
+PixelHit 1287, 1003, 94.4866, 0
+PixelHit 1287, 1005, 62.2025, 0
+PixelHit 1288, 1000, 192.467, 0
+PixelHit 1288, 1003, 281.198, 0
+PixelHit 1288, 1004, 56.011, 0
+PixelHit 1288, 1005, 230.981, 0
+PixelHit 1289, 1003, 195.285, 0
+PixelHit 1290, 1001, 95.0379, 0
+PixelHit 1290, 1002, 133.021, 0
+PixelHit 1290, 1003, 134.252, 0
+PixelHit 1290, 1004, 134.165, 0
+PixelHit 1290, 1005, 173.321, 0
+PixelHit 1291, 1001, 242.444, 0
+PixelHit 1291, 1003, 208.867, 0
+PixelHit 1292, 1002, 156.14, 0
+=== 23 ===
+--- mydetector ---
+PixelHit 107, 107, 157.568, 0
+PixelHit 109, 108, 58.362, 0
+PixelHit 109, 109, 272.712, 0
+PixelHit 110, 107, 58.3802, 0
+PixelHit 110, 109, 471.042, 0
+PixelHit 110, 110, 186.141, 0
+PixelHit 111, 109, 64.8469, 0
+PixelHit 111, 110, 367.757, 0
+PixelHit 111, 111, 57.6682, 0
+PixelHit 112, 108, 138.668, 0
+PixelHit 112, 109, 56.9552, 0
+PixelHit 112, 110, 337.926, 0
+PixelHit 113, 109, 105.919, 0
+PixelHit 113, 111, 106.448, 0
+PixelHit 114, 110, 173.427, 0
+PixelHit 114, 112, 65.9208, 0
+PixelHit 114, 113, 64.2604, 0
+PixelHit 115, 109, 83.5808, 0
+PixelHit 115, 111, 54.9364, 0
+PixelHit 115, 115, 57.1651, 0
+PixelHit 116, 110, 114.276, 0
+PixelHit 116, 112, 94.9765, 0
+PixelHit 117, 111, 166.469, 0
+PixelHit 117, 112, 185.397, 0
+PixelHit 117, 113, 262.17, 0
+PixelHit 117, 115, 90.3036, 0
+PixelHit 117, 116, 65.0078, 0
+PixelHit 118, 113, 168.695, 0
+PixelHit 119, 121, 57.1356, 0
+PixelHit 119, 122, 166.092, 0
+PixelHit 120, 116, 121.284, 0
+PixelHit 120, 123, 84.7202, 0
+PixelHit 120, 126, 154.269, 0
+PixelHit 121, 126, 128.543, 0
+PixelHit 122, 116, 103.058, 0
+PixelHit 122, 122, 155.502, 0
+PixelHit 122, 123, 179.249, 0
+PixelHit 123, 120, 92.0216, 0
+PixelHit 123, 122, 204.433, 0
+PixelHit 124, 123, 174.38, 0
+PixelHit 124, 127, 189.125, 0
+PixelHit 126, 128, 149.885, 0
+PixelHit 127, 127, 80.5409, 0
+PixelHit 1377, 929, 107.863, 0
+PixelHit 1379, 925, 62.7533, 0
+PixelHit 1379, 928, 646.309, 0
+PixelHit 1379, 929, 241.72, 0
+PixelHit 1379, 930, 152.341, 0
+PixelHit 1379, 931, 162.194, 0
+PixelHit 1380, 928, 83.096, 0
+PixelHit 1380, 929, 156.985, 0
+PixelHit 1381, 927, 121.287, 0
+PixelHit 1381, 928, 55.9572, 0
+PixelHit 1381, 931, 175.228, 0
+=== 24 ===
+--- mydetector ---
+PixelHit 1306, 964, 135.046, 0
+PixelHit 1307, 966, 76.8014, 0
+PixelHit 1307, 967, 55.9402, 0
+PixelHit 1308, 961, 159.897, 0
+PixelHit 1308, 965, 132.969, 0
+PixelHit 1308, 967, 121.472, 0
+PixelHit 1308, 968, 110.604, 0
+PixelHit 1309, 963, 72.693, 0
+PixelHit 1309, 964, 220.611, 0
+PixelHit 1309, 965, 234.643, 0
+PixelHit 1309, 966, 326.804, 0
+PixelHit 1309, 967, 87.8608, 0
+PixelHit 1310, 965, 295.707, 0
+PixelHit 1310, 966, 61.4404, 0
+PixelHit 1310, 967, 77.4225, 0
+PixelHit 1311, 964, 115.961, 0
+PixelHit 1311, 968, 147.245, 0
+=== 25 ===
+--- mydetector ---
+PixelHit 1283, 925, 73.1229, 0
+PixelHit 1284, 923, 62.7315, 0
+PixelHit 1284, 926, 331.608, 0
+PixelHit 1285, 924, 100.753, 0
+PixelHit 1285, 925, 243.698, 0
+PixelHit 1285, 926, 96.8623, 0
+PixelHit 1285, 927, 335.178, 0
+PixelHit 1285, 928, 116.835, 0
+PixelHit 1286, 924, 106.182, 0
+PixelHit 1286, 925, 122.426, 0
+PixelHit 1286, 926, 217.54, 0
+PixelHit 1286, 927, 199.938, 0
+PixelHit 1287, 926, 57.9984, 0
+PixelHit 1288, 923, 83.5841, 0
+PixelHit 1289, 927, 98.6085, 0
+=== 26 ===
+--- mydetector ---
+PixelHit 1296, 1078, 162.604, 0
+PixelHit 1297, 1079, 73.62, 0
+PixelHit 1297, 1080, 63.8502, 0
+PixelHit 1298, 1079, 63.7717, 0
+PixelHit 1299, 1077, 44.8255, 0
+PixelHit 1299, 1078, 250.603, 0
+PixelHit 1299, 1079, 321.465, 0
+PixelHit 1299, 1080, 292.752, 0
+PixelHit 1299, 1081, 112.186, 0
+PixelHit 1300, 1078, 138.759, 0
+PixelHit 1300, 1079, 205.724, 0
+PixelHit 1300, 1080, 68.1338, 0
+PixelHit 1301, 1076, 87.007, 0
+PixelHit 1301, 1078, 109.244, 0
+PixelHit 1301, 1079, 124.978, 0
+PixelHit 1302, 1075, 193.157, 0
+=== 27 ===
+--- mydetector ---
+PixelHit 1340, 961, 53.5572, 0
+PixelHit 1341, 965, 127.218, 0
+PixelHit 1342, 963, 114.402, 0
+PixelHit 1342, 964, 194.294, 0
+PixelHit 1343, 962, 163.07, 0
+PixelHit 1343, 963, 248.586, 0
+PixelHit 1343, 964, 187.944, 0
+PixelHit 1343, 965, 74.1075, 0
+PixelHit 1344, 962, 88.5983, 0
+PixelHit 1344, 963, 253.655, 0
+PixelHit 1344, 964, 130.112, 0
+PixelHit 1345, 966, 276.509, 0
+=== 28 ===
+--- mydetector ---
+PixelHit 1282, 971, 187.74, 0
+PixelHit 1282, 972, 270.715, 0
+PixelHit 1282, 973, 80.2832, 0
+PixelHit 1283, 971, 234.414, 0
+PixelHit 1283, 972, 127.812, 0
+PixelHit 1283, 973, 179.961, 0
+PixelHit 1283, 974, 224.357, 0
+PixelHit 1283, 975, 114.031, 0
+PixelHit 1284, 973, 48.3554, 0
+PixelHit 1284, 974, 546.707, 0
+PixelHit 1284, 975, 85.2452, 0
+PixelHit 1285, 973, 198.65, 0
+PixelHit 1285, 974, 127.383, 0
+PixelHit 1285, 975, 175.597, 0
+PixelHit 1286, 975, 214.02, 0
+=== 29 ===
+--- mydetector ---
+PixelHit 1249, 911, 81.325, 0
+PixelHit 1249, 917, 106.642, 0
+PixelHit 1250, 913, 160.069, 0
+PixelHit 1250, 914, 80.1412, 0
+PixelHit 1250, 915, 184.695, 0
+PixelHit 1250, 917, 103.136, 0
+PixelHit 1250, 918, 116.686, 0
+PixelHit 1251, 915, 151.81, 0
+PixelHit 1251, 916, 335.887, 0
+PixelHit 1251, 919, 93.0979, 0
+PixelHit 1252, 916, 238.116, 0
+PixelHit 1252, 918, 56.7403, 0
+PixelHit 1253, 914, 215.75, 0
+PixelHit 1253, 916, 102.7, 0
+PixelHit 1253, 920, 167.125, 0
+PixelHit 1255, 915, 64.9689, 0
+=== 30 ===
+--- mydetector ---
+PixelHit 1279, 931, 107.018, 0
+PixelHit 1280, 931, 81.9962, 0
+PixelHit 1280, 933, 217.333, 0
+PixelHit 1281, 930, 143.277, 0
+PixelHit 1281, 931, 118.427, 0
+PixelHit 1282, 929, 69.7079, 0
+PixelHit 1282, 930, 208.736, 0
+PixelHit 1282, 931, 116.873, 0
+PixelHit 1282, 932, 65.8844, 0
+PixelHit 1283, 928, 81.4068, 0
+PixelHit 1283, 929, 82.7581, 0
+PixelHit 1283, 930, 488.553, 0
+PixelHit 1283, 931, 607.932, 0
+PixelHit 1283, 932, 116.849, 0
+PixelHit 1283, 933, 88.7377, 0
+PixelHit 1284, 929, 220.804, 0
+PixelHit 1284, 930, 248.267, 0
+PixelHit 1284, 931, 62.5401, 0
+PixelHit 1284, 932, 61.8633, 0
+PixelHit 1284, 933, 59.7182, 0
+PixelHit 1286, 931, 127.438, 0
+PixelHit 1286, 932, 246.789, 0
+=== 31 ===
+--- mydetector ---
+PixelHit 1269, 1014, 117.045, 0
+PixelHit 1269, 1015, 60.1555, 0
+PixelHit 1270, 1012, 171.893, 0
+PixelHit 1270, 1013, 161.479, 0
+PixelHit 1270, 1014, 85.1781, 0
+PixelHit 1270, 1015, 243.699, 0
+PixelHit 1270, 1016, 277.834, 0
+PixelHit 1271, 1012, 131.493, 0
+PixelHit 1271, 1013, 175.59, 0
+PixelHit 1271, 1014, 557.691, 0
+PixelHit 1272, 1011, 143.47, 0
+PixelHit 1272, 1013, 332.387, 0
+PixelHit 1272, 1014, 93.9265, 0
+PixelHit 1272, 1015, 170.932, 0
+PixelHit 1273, 1015, 215.908, 0
+PixelHit 1274, 1011, 130.777, 0
+=== 32 ===
+--- mydetector ---
+PixelHit 1295, 971, 187.857, 0
+PixelHit 1295, 973, 101.451, 0
+PixelHit 1295, 974, 79.6232, 0
+PixelHit 1296, 973, 241.798, 0
+PixelHit 1296, 974, 213.93, 0
+PixelHit 1296, 975, 137.835, 0
+PixelHit 1296, 976, 226.659, 0
+PixelHit 1297, 971, 346.951, 0
+PixelHit 1297, 972, 95.4202, 0
+PixelHit 1297, 973, 505.917, 0
+PixelHit 1297, 974, 323.271, 0
+PixelHit 1298, 972, 242.782, 0
+PixelHit 1298, 973, 124.641, 0
+PixelHit 1298, 974, 326.492, 0
+PixelHit 1298, 975, 82.1678, 0
+PixelHit 1298, 976, 114.236, 0
+PixelHit 1299, 974, 126.085, 0
+PixelHit 1299, 975, 222.199, 0
+PixelHit 1300, 975, 117.309, 0
+=== 33 ===
+--- mydetector ---
+PixelHit 1264, 929, 59.9796, 0
+PixelHit 1266, 930, 52.0111, 0
+PixelHit 1267, 928, 113.209, 0
+PixelHit 1267, 929, 334.157, 0
+PixelHit 1267, 930, 315.374, 0
+PixelHit 1267, 931, 463.825, 0
+PixelHit 1267, 932, 63.235, 0
+PixelHit 1267, 933, 313.795, 0
+PixelHit 1268, 928, 78.1355, 0
+PixelHit 1268, 929, 449.134, 0
+PixelHit 1268, 930, 485.219, 0
+PixelHit 1268, 931, 554.163, 0
+PixelHit 1268, 932, 182.357, 0
+PixelHit 1268, 933, 333.721, 0
+PixelHit 1268, 934, 195.559, 0
+PixelHit 1268, 935, 181.487, 0
+PixelHit 1269, 930, 339.812, 0
+PixelHit 1269, 931, 710.394, 0
+PixelHit 1269, 932, 569.382, 0
+PixelHit 1269, 933, 589.261, 0
+PixelHit 1269, 934, 349.422, 0
+PixelHit 1269, 935, 90.0824, 0
+PixelHit 1270, 926, 104.684, 0
+PixelHit 1270, 929, 176.394, 0
+PixelHit 1270, 930, 347.318, 0
+PixelHit 1270, 931, 415.699, 0
+PixelHit 1270, 932, 576.707, 0
+PixelHit 1270, 933, 460.687, 0
+PixelHit 1270, 934, 456.935, 0
+PixelHit 1270, 935, 275.427, 0
+PixelHit 1270, 936, 278.78, 0
+PixelHit 1271, 927, 120.034, 0
+PixelHit 1271, 930, 177.564, 0
+PixelHit 1271, 931, 472.681, 0
+PixelHit 1271, 932, 475.836, 0
+PixelHit 1271, 933, 549.97, 0
+PixelHit 1271, 934, 634.047, 0
+PixelHit 1271, 935, 213.585, 0
+PixelHit 1271, 936, 102.668, 0
+PixelHit 1271, 937, 87.6363, 0
+PixelHit 1272, 930, 56.0488, 0
+PixelHit 1272, 931, 358.631, 0
+PixelHit 1272, 932, 287.682, 0
+PixelHit 1272, 933, 212.883, 0
+PixelHit 1272, 934, 500.801, 0
+PixelHit 1272, 935, 126.461, 0
+PixelHit 1272, 937, 281.759, 0
+PixelHit 1273, 931, 301.295, 0
+PixelHit 1273, 933, 94.1287, 0
+PixelHit 1273, 934, 170.313, 0
+PixelHit 1274, 930, 60.9886, 0
+PixelHit 1274, 931, 150.987, 0
+PixelHit 1274, 932, 60.8916, 0
+PixelHit 1274, 936, 74.4765, 0
+=== 34 ===
+--- mydetector ---
+PixelHit 1279, 984, 208.175, 0
+PixelHit 1281, 984, 141.432, 0
+PixelHit 1281, 985, 59.4615, 0
+PixelHit 1281, 986, 90.7106, 0
+PixelHit 1282, 981, 131.608, 0
+PixelHit 1282, 983, 59.5754, 0
+PixelHit 1282, 984, 281.541, 0
+PixelHit 1282, 985, 432.653, 0
+PixelHit 1283, 983, 268.268, 0
+PixelHit 1283, 984, 261.251, 0
+PixelHit 1283, 985, 183.128, 0
+PixelHit 1283, 986, 212.059, 0
+PixelHit 1283, 987, 171.624, 0
+PixelHit 1284, 983, 124.382, 0
+PixelHit 1284, 986, 79.0131, 0
+PixelHit 1285, 984, 63.8983, 0
+PixelHit 1285, 985, 76.2495, 0
+=== 35 ===
+--- mydetector ---
+PixelHit 1256, 940, 172.891, 0
+PixelHit 1257, 938, 83.3049, 0
+PixelHit 1257, 939, 67.1446, 0
+PixelHit 1258, 937, 85.4956, 0
+PixelHit 1258, 938, 346.394, 0
+PixelHit 1258, 939, 333.755, 0
+PixelHit 1258, 940, 173.995, 0
+PixelHit 1258, 941, 100.089, 0
+PixelHit 1259, 938, 60.6353, 0
+PixelHit 1259, 939, 82.6385, 0
+PixelHit 1259, 941, 244.832, 0
+PixelHit 1260, 939, 109.259, 0
+PixelHit 1261, 937, 198.043, 0
+PixelHit 1261, 938, 55.5024, 0
+=== 36 ===
+--- mydetector ---
+PixelHit 1286, 944, 88.9754, 0
+PixelHit 1286, 946, 249.983, 0
+PixelHit 1287, 945, 78.9841, 0
+PixelHit 1287, 946, 94.0182, 0
+PixelHit 1287, 947, 65.51, 0
+PixelHit 1288, 943, 102.846, 0
+PixelHit 1288, 944, 96.338, 0
+PixelHit 1288, 945, 340.358, 0
+PixelHit 1288, 946, 160.829, 0
+PixelHit 1288, 947, 74.1802, 0
+PixelHit 1289, 943, 212.429, 0
+PixelHit 1289, 944, 227.614, 0
+PixelHit 1289, 945, 862.59, 0
+PixelHit 1289, 946, 278.415, 0
+PixelHit 1289, 947, 125.368, 0
+PixelHit 1290, 943, 307.646, 0
+PixelHit 1290, 944, 179.069, 0
+PixelHit 1290, 945, 447.387, 0
+PixelHit 1290, 946, 149.07, 0
+PixelHit 1290, 947, 77.2371, 0
+=== 37 ===
+--- mydetector ---
+PixelHit 1265, 938, 202.288, 0
+PixelHit 1265, 940, 124.065, 0
+PixelHit 1266, 939, 290.755, 0
+PixelHit 1266, 940, 419.07, 0
+PixelHit 1266, 941, 109.761, 0
+PixelHit 1266, 943, 106.918, 0
+PixelHit 1267, 938, 96.7556, 0
+PixelHit 1267, 939, 86.8754, 0
+PixelHit 1267, 940, 584.694, 0
+PixelHit 1267, 941, 294.905, 0
+PixelHit 1267, 942, 191.605, 0
+PixelHit 1267, 944, 59.6995, 0
+PixelHit 1268, 941, 165.153, 0
+PixelHit 1268, 942, 55.6777, 0
+PixelHit 1268, 943, 84.2754, 0
+PixelHit 1269, 940, 320.675, 0
+=== 38 ===
+--- mydetector ---
+PixelHit 1270, 992, 106.986, 0
+PixelHit 1271, 987, 116.123, 0
+PixelHit 1271, 988, 151.299, 0
+PixelHit 1271, 992, 92.3239, 0
+PixelHit 1271, 993, 92.2605, 0
+PixelHit 1271, 994, 204.503, 0
+PixelHit 1272, 990, 141.677, 0
+PixelHit 1272, 991, 155.426, 0
+PixelHit 1272, 992, 149.299, 0
+PixelHit 1272, 993, 202.67, 0
+PixelHit 1272, 994, 120.266, 0
+PixelHit 1273, 989, 240.423, 0
+PixelHit 1273, 990, 170.235, 0
+PixelHit 1273, 991, 581.162, 0
+PixelHit 1273, 992, 126.138, 0
+PixelHit 1274, 989, 56.6348, 0
+PixelHit 1274, 991, 68.732, 0
+PixelHit 1275, 991, 56.4194, 0
+PixelHit 1275, 992, 139.962, 0
+=== 39 ===
+--- mydetector ---
+PixelHit 1306, 991, 148.521, 0
+PixelHit 1307, 990, 46.5164, 0
+PixelHit 1308, 988, 114.302, 0
+PixelHit 1308, 990, 54.1571, 0
+PixelHit 1308, 991, 121.865, 0
+PixelHit 1308, 992, 216.345, 0
+PixelHit 1309, 988, 308.865, 0
+PixelHit 1309, 989, 331.617, 0
+PixelHit 1309, 990, 425.789, 0
+PixelHit 1309, 991, 416.786, 0
+PixelHit 1309, 993, 97.5089, 0
+PixelHit 1310, 987, 50.9534, 0
+PixelHit 1310, 988, 42.175, 0
+PixelHit 1310, 989, 250.575, 0
+PixelHit 1310, 990, 250.648, 0
+PixelHit 1310, 992, 98.4758, 0
+PixelHit 1311, 989, 321.83, 0
+PixelHit 1311, 990, 457.726, 0
+PixelHit 1312, 989, 194.594, 0
+PixelHit 1312, 990, 128.524, 0
+PixelHit 1312, 991, 189.672, 0
+PixelHit 1313, 990, 73.4815, 0
+PixelHit 1314, 990, 90.8526, 0
+=== 40 ===
+--- mydetector ---
+PixelHit 1277, 972, 176.095, 0
+PixelHit 1277, 976, 188.722, 0
+PixelHit 1278, 971, 113.088, 0
+PixelHit 1278, 972, 344.14, 0
+PixelHit 1278, 973, 278.453, 0
+PixelHit 1278, 974, 393.93, 0
+PixelHit 1278, 975, 83.6134, 0
+PixelHit 1278, 976, 154.577, 0
+PixelHit 1279, 973, 357.845, 0
+PixelHit 1279, 974, 121.772, 0
+PixelHit 1280, 971, 117.982, 0
+PixelHit 1280, 972, 89.0551, 0
+PixelHit 1280, 973, 386.379, 0
+PixelHit 1280, 974, 235.143, 0
+PixelHit 1281, 971, 240.459, 0
+PixelHit 1281, 973, 47.9825, 0
+PixelHit 1281, 976, 84.7759, 0
+=== 41 ===
+--- mydetector ---
+PixelHit 1245, 1046, 157.861, 0
+PixelHit 1245, 1049, 142.662, 0
+PixelHit 1246, 1047, 270.39, 0
+PixelHit 1246, 1048, 263.047, 0
+PixelHit 1247, 1046, 93.586, 0
+PixelHit 1247, 1047, 302.893, 0
+PixelHit 1247, 1048, 361.025, 0
+PixelHit 1247, 1049, 149.709, 0
+PixelHit 1248, 1046, 46.7291, 0
+PixelHit 1248, 1047, 87.7088, 0
+PixelHit 1248, 1048, 77.0882, 0
+=== 42 ===
+--- mydetector ---
+PixelHit 1330, 973, 136.63, 0
+PixelHit 1331, 975, 148.93, 0
+PixelHit 1332, 974, 59.478, 0
+PixelHit 1332, 975, 276.759, 0
+PixelHit 1332, 976, 229.08, 0
+PixelHit 1332, 978, 60.65, 0
+PixelHit 1333, 976, 421.047, 0
+PixelHit 1333, 977, 129.67, 0
+PixelHit 1333, 978, 217.709, 0
+PixelHit 1334, 975, 130.234, 0
+PixelHit 1335, 978, 102.053, 0
+=== 43 ===
+--- mydetector ---
+PixelHit 1291, 918, 49.856, 0
+PixelHit 1291, 920, 108.218, 0
+PixelHit 1291, 924, 122.525, 0
+PixelHit 1292, 922, 64.9171, 0
+PixelHit 1292, 923, 47.7349, 0
+PixelHit 1293, 919, 73.1448, 0
+PixelHit 1293, 920, 228.966, 0
+PixelHit 1293, 921, 175.598, 0
+PixelHit 1293, 922, 55.0992, 0
+PixelHit 1293, 923, 120.841, 0
+PixelHit 1294, 919, 227.152, 0
+PixelHit 1294, 920, 192.672, 0
+PixelHit 1294, 921, 83.8603, 0
+PixelHit 1294, 922, 140.376, 0
+PixelHit 1295, 919, 203.82, 0
+PixelHit 1295, 920, 59.2438, 0
+PixelHit 1295, 921, 200.615, 0
+PixelHit 1296, 919, 188.974, 0
+PixelHit 1296, 922, 117.037, 0
+PixelHit 1297, 919, 181.672, 0
+PixelHit 1297, 923, 58.1129, 0
+=== 44 ===
+--- mydetector ---
+PixelHit 1274, 1020, 129.529, 0
+PixelHit 1276, 1016, 97.1673, 0
+PixelHit 1278, 1018, 154.175, 0
+PixelHit 1278, 1020, 126.785, 0
+PixelHit 1278, 1021, 79.6015, 0
+PixelHit 1278, 1022, 190.705, 0
+PixelHit 1279, 1020, 419.716, 0
+PixelHit 1279, 1021, 242.02, 0
+PixelHit 1279, 1022, 275.262, 0
+PixelHit 1280, 1018, 124.315, 0
+PixelHit 1280, 1019, 110.925, 0
+PixelHit 1280, 1020, 47.6009, 0
+PixelHit 1280, 1021, 497.069, 0
+PixelHit 1280, 1022, 127.301, 0
+PixelHit 1280, 1023, 141.339, 0
+PixelHit 1281, 1018, 165.774, 0
+PixelHit 1281, 1019, 131.307, 0
+PixelHit 1281, 1020, 49.427, 0
+PixelHit 1281, 1021, 180.695, 0
+PixelHit 1281, 1022, 63.5754, 0
+PixelHit 1282, 1023, 76.8342, 0
+=== 45 ===
+--- mydetector ---
+PixelHit 1318, 982, 149.364, 0
+PixelHit 1318, 983, 128.094, 0
+PixelHit 1318, 984, 160.199, 0
+PixelHit 1318, 985, 199.937, 0
+PixelHit 1318, 986, 52.5442, 0
+PixelHit 1319, 984, 312.316, 0
+PixelHit 1319, 987, 72.7931, 0
+PixelHit 1320, 983, 110.215, 0
+PixelHit 1320, 984, 306.178, 0
+PixelHit 1320, 985, 200.426, 0
+PixelHit 1320, 986, 107.61, 0
+PixelHit 1321, 982, 125.978, 0
+PixelHit 1321, 983, 156.064, 0
+PixelHit 1322, 982, 107.423, 0
+PixelHit 1322, 985, 55.2492, 0
+PixelHit 1323, 985, 64.4574, 0
+PixelHit 1324, 987, 69.5468, 0
+=== 46 ===
+--- mydetector ---
+PixelHit 1300, 914, 139.206, 0
+PixelHit 1300, 915, 97.2192, 0
+PixelHit 1301, 914, 139.35, 0
+PixelHit 1302, 914, 135.323, 0
+PixelHit 1302, 916, 192.705, 0
+PixelHit 1302, 917, 154.416, 0
+PixelHit 1303, 912, 101.875, 0
+PixelHit 1303, 913, 335.635, 0
+PixelHit 1303, 914, 668.977, 0
+PixelHit 1303, 915, 529.859, 0
+PixelHit 1303, 916, 285.927, 0
+PixelHit 1303, 917, 266.295, 0
+PixelHit 1304, 909, 183.582, 0
+PixelHit 1304, 913, 74.8661, 0
+PixelHit 1304, 914, 128.575, 0
+PixelHit 1304, 915, 69.713, 0
+PixelHit 1305, 909, 91.3734, 0
+PixelHit 1305, 913, 156.248, 0
+PixelHit 1305, 914, 182.818, 0
+PixelHit 1305, 915, 72.6168, 0
+PixelHit 1305, 918, 65.1209, 0
+PixelHit 1306, 917, 91.5596, 0
+=== 47 ===
+--- mydetector ---
+PixelHit 1251, 1017, 67.4705, 0
+PixelHit 1252, 1017, 80.4715, 0
+PixelHit 1253, 1017, 189.092, 0
+PixelHit 1253, 1018, 99.2226, 0
+PixelHit 1253, 1019, 83.1945, 0
+PixelHit 1254, 1016, 239.193, 0
+PixelHit 1254, 1017, 287.002, 0
+PixelHit 1254, 1018, 285.472, 0
+PixelHit 1254, 1019, 361.625, 0
+PixelHit 1255, 1016, 221.469, 0
+PixelHit 1255, 1018, 75.3495, 0
+PixelHit 1255, 1019, 187.761, 0
+PixelHit 1256, 1015, 55.6174, 0
+PixelHit 1256, 1016, 140.915, 0
+PixelHit 1256, 1018, 129.793, 0
+PixelHit 1257, 1017, 83.6419, 0
+PixelHit 1258, 1019, 117.285, 0
+=== 48 ===
+--- mydetector ---
+PixelHit 1297, 974, 52.7557, 0
+PixelHit 1298, 973, 73.8785, 0
+PixelHit 1298, 976, 67.0136, 0
+PixelHit 1299, 973, 308.437, 0
+PixelHit 1299, 974, 396.941, 0
+PixelHit 1299, 975, 265.27, 0
+PixelHit 1300, 970, 119.49, 0
+PixelHit 1300, 973, 309.24, 0
+PixelHit 1300, 974, 106.098, 0
+PixelHit 1300, 975, 249.211, 0
+PixelHit 1300, 976, 261.888, 0
+PixelHit 1300, 977, 57.7892, 0
+PixelHit 1301, 975, 230.229, 0
+PixelHit 1303, 974, 84.3108, 0
+=== 49 ===
+--- mydetector ---
+PixelHit 1291, 978, 92.6057, 0
+PixelHit 1294, 976, 128.171, 0
+PixelHit 1294, 977, 243.919, 0
+PixelHit 1294, 978, 277.732, 0
+PixelHit 1295, 975, 227.715, 0
+PixelHit 1295, 976, 374.888, 0
+PixelHit 1295, 977, 181.86, 0
+PixelHit 1295, 978, 99.16, 0
+PixelHit 1296, 976, 142.889, 0
+PixelHit 1296, 977, 140.445, 0
+PixelHit 1297, 976, 115.625, 0
+PixelHit 1297, 977, 286.222, 0
+PixelHit 1297, 978, 94.1104, 0
+PixelHit 1299, 975, 165.5, 0
+=== 50 ===
+--- mydetector ---
+PixelHit 1298, 995, 130.192, 0
+PixelHit 1298, 996, 78.6576, 0
+PixelHit 1298, 997, 131.143, 0
+PixelHit 1299, 994, 106.364, 0
+PixelHit 1299, 995, 153.105, 0
+PixelHit 1299, 996, 480.427, 0
+PixelHit 1299, 998, 114.69, 0
+PixelHit 1299, 999, 48.9474, 0
+PixelHit 1300, 994, 72.5752, 0
+PixelHit 1300, 996, 226.897, 0
+PixelHit 1303, 996, 70.9888, 0
+=== 51 ===
+--- mydetector ---
+PixelHit 1318, 931, 164.83, 0
+PixelHit 1319, 929, 129.908, 0
+PixelHit 1320, 930, 73.2587, 0
+PixelHit 1320, 933, 82.9402, 0
+PixelHit 1321, 929, 91.8576, 0
+PixelHit 1321, 930, 155.47, 0
+PixelHit 1321, 931, 331.2, 0
+PixelHit 1321, 932, 192.33, 0
+PixelHit 1322, 929, 170.537, 0
+PixelHit 1322, 930, 739.088, 0
+PixelHit 1322, 931, 1084.33, 0
+PixelHit 1322, 934, 97.0359, 0
+PixelHit 1323, 929, 141.011, 0
+PixelHit 1323, 930, 748.51, 0
+PixelHit 1323, 931, 945.56, 0
+PixelHit 1323, 932, 230.971, 0
+PixelHit 1323, 933, 162.907, 0
+PixelHit 1324, 929, 78.1915, 0
+PixelHit 1324, 930, 133.178, 0
+PixelHit 1324, 931, 445.785, 0
+PixelHit 1324, 932, 178.156, 0
+PixelHit 1324, 933, 170.442, 0
+PixelHit 1325, 934, 95.5744, 0
+=== 52 ===
+--- mydetector ---
+PixelHit 1335, 971, 116.457, 0
+PixelHit 1335, 974, 82.0526, 0
+PixelHit 1335, 975, 150.512, 0
+PixelHit 1336, 974, 214.747, 0
+PixelHit 1336, 975, 315.975, 0
+PixelHit 1336, 976, 166.97, 0
+PixelHit 1336, 978, 90.1535, 0
+PixelHit 1337, 972, 78.6041, 0
+PixelHit 1337, 974, 272.829, 0
+PixelHit 1337, 975, 111.317, 0
+PixelHit 1337, 976, 189.846, 0
+PixelHit 1338, 972, 113.521, 0
+PixelHit 1338, 973, 100.756, 0
+PixelHit 1338, 974, 376.076, 0
+PixelHit 1338, 975, 146.151, 0
+PixelHit 1339, 974, 143.658, 0
+PixelHit 1339, 977, 208.464, 0
+PixelHit 1340, 974, 96.2153, 0
+PixelHit 1341, 976, 247.164, 0
+=== 53 ===
+--- mydetector ---
+PixelHit 1251, 974, 185.721, 0
+PixelHit 1252, 973, 175.029, 0
+PixelHit 1252, 974, 110.351, 0
+PixelHit 1253, 970, 246.342, 0
+PixelHit 1253, 971, 172.278, 0
+PixelHit 1253, 972, 126.768, 0
+PixelHit 1253, 974, 609.803, 0
+PixelHit 1253, 975, 84.4858, 0
+PixelHit 1254, 972, 119.955, 0
+PixelHit 1254, 973, 298.987, 0
+PixelHit 1254, 975, 143.643, 0
+PixelHit 1255, 973, 83.2646, 0
+PixelHit 1256, 973, 91.1737, 0
+=== 54 ===
+--- mydetector ---
+PixelHit 1286, 944, 119.49, 0
+PixelHit 1287, 942, 207.736, 0
+PixelHit 1288, 942, 110.636, 0
+PixelHit 1289, 942, 144.439, 0
+PixelHit 1289, 944, 72.714, 0
+PixelHit 1290, 942, 99.1454, 0
+PixelHit 1290, 943, 421.43, 0
+PixelHit 1290, 944, 208.454, 0
+PixelHit 1290, 945, 117.724, 0
+PixelHit 1291, 941, 220.407, 0
+PixelHit 1291, 942, 90.3144, 0
+PixelHit 1291, 943, 210.7, 0
+PixelHit 1291, 944, 118.968, 0
+PixelHit 1292, 943, 73.4255, 0
+PixelHit 1293, 942, 52.5894, 0
+PixelHit 1294, 948, 134.218, 0
+=== 55 ===
+--- mydetector ---
+PixelHit 1285, 1001, 71.0852, 0
+PixelHit 1285, 1002, 94.9823, 0
+PixelHit 1286, 1002, 375.911, 0
+PixelHit 1286, 1003, 115.5, 0
+PixelHit 1287, 1001, 97.4027, 0
+PixelHit 1287, 1002, 284.788, 0
+PixelHit 1287, 1003, 137.356, 0
+PixelHit 1288, 1002, 149.54, 0
+PixelHit 1288, 1003, 164.054, 0
+PixelHit 1292, 1003, 269.134, 0
+=== 56 ===
+--- mydetector ---
+PixelHit 1279, 954, 147.714, 0
+PixelHit 1280, 951, 213.222, 0
+PixelHit 1280, 954, 63.1647, 0
+PixelHit 1280, 955, 106.585, 0
+PixelHit 1281, 953, 271.104, 0
+PixelHit 1281, 955, 175.446, 0
+PixelHit 1282, 952, 398.562, 0
+PixelHit 1282, 953, 639.014, 0
+PixelHit 1282, 954, 448.898, 0
+PixelHit 1282, 956, 67.8284, 0
+PixelHit 1283, 952, 196.618, 0
+PixelHit 1283, 953, 93.7257, 0
+PixelHit 1283, 956, 229.735, 0
+PixelHit 1284, 952, 48.8064, 0
+PixelHit 1284, 953, 157.32, 0
+PixelHit 1284, 954, 81.8605, 0
+PixelHit 1285, 948, 140.653, 0
+PixelHit 1285, 950, 92.8792, 0
+PixelHit 1285, 953, 79.8695, 0
+PixelHit 1285, 954, 84.1763, 0
+PixelHit 1286, 953, 152.615, 0
+=== 57 ===
+--- mydetector ---
+PixelHit 1253, 972, 130.341, 0
+PixelHit 1255, 972, 75.9976, 0
+PixelHit 1255, 973, 334.08, 0
+PixelHit 1255, 974, 108.7, 0
+PixelHit 1256, 972, 149.058, 0
+PixelHit 1256, 973, 399.155, 0
+PixelHit 1256, 974, 225.716, 0
+PixelHit 1257, 971, 342.603, 0
+PixelHit 1257, 972, 59.7151, 0
+PixelHit 1257, 974, 104.385, 0
+PixelHit 1258, 970, 149.651, 0
+PixelHit 1258, 973, 266.662, 0
+PixelHit 1259, 970, 123.786, 0
+PixelHit 1260, 971, 141.035, 0
+=== 58 ===
+--- mydetector ---
+PixelHit 1338, 968, 266.164, 0
+PixelHit 1338, 969, 306.65, 0
+PixelHit 1338, 970, 162.736, 0
+PixelHit 1338, 971, 153.326, 0
+PixelHit 1338, 972, 293.706, 0
+PixelHit 1339, 967, 107.37, 0
+PixelHit 1339, 969, 207.568, 0
+PixelHit 1339, 970, 241.566, 0
+PixelHit 1339, 971, 262.495, 0
+PixelHit 1339, 972, 150.15, 0
+PixelHit 1340, 968, 80.5259, 0
+PixelHit 1340, 970, 279.332, 0
+PixelHit 1340, 971, 439.245, 0
+PixelHit 1341, 970, 86.2936, 0
+PixelHit 1342, 969, 152.645, 0
+PixelHit 1342, 972, 71.1892, 0
+PixelHit 1343, 971, 143.122, 0
+=== 59 ===
+--- mydetector ---
+PixelHit 66, 32, 133.098, 0
+PixelHit 67, 32, 94.5969, 0
+PixelHit 68, 33, 84.5843, 0
+PixelHit 69, 33, 99.7142, 0
+PixelHit 70, 33, 177.473, 0
+PixelHit 71, 34, 208.733, 0
+PixelHit 72, 34, 117.373, 0
+PixelHit 73, 35, 139.494, 0
+PixelHit 73, 36, 227.063, 0
+PixelHit 74, 37, 261.14, 0
+PixelHit 75, 39, 69.3148, 0
+PixelHit 77, 39, 90.4402, 0
+PixelHit 77, 41, 80.2675, 0
+PixelHit 77, 42, 104.677, 0
+PixelHit 78, 38, 109.705, 0
+PixelHit 81, 43, 108.472, 0
+PixelHit 82, 42, 151.39, 0
+PixelHit 82, 46, 120.315, 0
+PixelHit 84, 46, 156.614, 0
+PixelHit 85, 46, 88.3943, 0
+PixelHit 86, 46, 112.444, 0
+PixelHit 1288, 1026, 56.2773, 0
+PixelHit 1288, 1029, 87.2371, 0
+PixelHit 1290, 1023, 118.562, 0
+PixelHit 1290, 1024, 103.797, 0
+PixelHit 1290, 1025, 246.096, 0
+PixelHit 1290, 1026, 211.089, 0
+PixelHit 1290, 1027, 186.579, 0
+PixelHit 1290, 1028, 114.958, 0
+PixelHit 1291, 1022, 134.212, 0
+PixelHit 1291, 1024, 548.234, 0
+PixelHit 1291, 1025, 379.527, 0
+PixelHit 1291, 1026, 114.153, 0
+PixelHit 1291, 1027, 108.678, 0
+PixelHit 1291, 1028, 49.0973, 0
+PixelHit 1292, 1024, 139.181, 0
+PixelHit 1292, 1025, 84.0154, 0
+PixelHit 1292, 1027, 318.8, 0
+PixelHit 1293, 1027, 46.2329, 0
+PixelHit 1294, 1025, 99.1376, 0
+=== 60 ===
+--- mydetector ---
+PixelHit 1275, 980, 90.1023, 0
+PixelHit 1276, 977, 52.8745, 0
+PixelHit 1276, 983, 256.046, 0
+PixelHit 1277, 979, 173.444, 0
+PixelHit 1278, 979, 159.013, 0
+PixelHit 1279, 979, 120.983, 0
+PixelHit 1279, 980, 383.032, 0
+PixelHit 1279, 981, 532.102, 0
+PixelHit 1279, 982, 96.4503, 0
+PixelHit 1279, 983, 143.982, 0
+PixelHit 1279, 984, 151.119, 0
+PixelHit 1280, 978, 54.2072, 0
+PixelHit 1280, 979, 92.518, 0
+PixelHit 1280, 980, 1314.91, 0
+PixelHit 1280, 981, 1349.08, 0
+PixelHit 1280, 982, 510.805, 0
+PixelHit 1280, 985, 89.6276, 0
+PixelHit 1281, 978, 208.358, 0
+PixelHit 1281, 980, 219.979, 0
+PixelHit 1281, 981, 109.526, 0
+PixelHit 1281, 982, 253.551, 0
+PixelHit 1282, 978, 239.695, 0
+PixelHit 1282, 979, 215.54, 0
+PixelHit 1282, 980, 270.956, 0
+PixelHit 1282, 981, 157.809, 0
+PixelHit 1283, 982, 106.377, 0
+=== 61 ===
+--- mydetector ---
+PixelHit 1249, 950, 55.3642, 0
+PixelHit 1249, 951, 53.1766, 0
+PixelHit 1250, 952, 120.359, 0
+PixelHit 1250, 954, 158.379, 0
+PixelHit 1251, 949, 135.771, 0
+PixelHit 1251, 951, 100.253, 0
+PixelHit 1251, 952, 387.629, 0
+PixelHit 1251, 954, 250.444, 0
+PixelHit 1252, 951, 177.104, 0
+PixelHit 1252, 952, 135.233, 0
+PixelHit 1253, 950, 62.2842, 0
+=== 62 ===
+--- mydetector ---
+PixelHit 1293, 952, 50.8309, 0
+PixelHit 1295, 948, 75.079, 0
+PixelHit 1295, 950, 60.2299, 0
+PixelHit 1295, 954, 153.521, 0
+PixelHit 1296, 950, 196.719, 0
+PixelHit 1296, 952, 76.3188, 0
+PixelHit 1296, 953, 177.448, 0
+PixelHit 1297, 949, 298.908, 0
+PixelHit 1297, 952, 148.02, 0
+PixelHit 1297, 953, 188.729, 0
+PixelHit 1298, 947, 134.871, 0
+PixelHit 1298, 948, 250.32, 0
+PixelHit 1298, 949, 183.155, 0
+PixelHit 1298, 950, 368.073, 0
+PixelHit 1298, 951, 833.407, 0
+PixelHit 1298, 952, 616.306, 0
+PixelHit 1298, 953, 64.3776, 0
+PixelHit 1298, 955, 213.041, 0
+PixelHit 1298, 956, 73.8002, 0
+PixelHit 1298, 958, 122.667, 0
+PixelHit 1299, 948, 267.61, 0
+PixelHit 1299, 949, 329.966, 0
+PixelHit 1299, 950, 504.062, 0
+PixelHit 1299, 951, 490.43, 0
+PixelHit 1299, 952, 514.031, 0
+PixelHit 1299, 953, 129.165, 0
+PixelHit 1299, 954, 211.947, 0
+PixelHit 1299, 955, 340.444, 0
+PixelHit 1300, 948, 105.798, 0
+PixelHit 1300, 949, 234.465, 0
+PixelHit 1300, 950, 665.518, 0
+PixelHit 1300, 951, 147.712, 0
+PixelHit 1300, 953, 308.663, 0
+PixelHit 1300, 954, 77.6719, 0
+PixelHit 1301, 949, 218.927, 0
+PixelHit 1301, 950, 408.874, 0
+PixelHit 1301, 951, 285.42, 0
+PixelHit 1301, 952, 273.765, 0
+PixelHit 1301, 953, 167.804, 0
+PixelHit 1302, 951, 78.5818, 0
+PixelHit 1302, 952, 157.414, 0
+PixelHit 1304, 951, 110.643, 0
+=== 63 ===
+--- mydetector ---
+PixelHit 1322, 929, 49.9808, 0
+PixelHit 1322, 931, 193.881, 0
+PixelHit 1322, 933, 86.7045, 0
+PixelHit 1323, 928, 273.486, 0
+PixelHit 1323, 930, 252.193, 0
+PixelHit 1323, 931, 304.255, 0
+PixelHit 1323, 932, 135.891, 0
+PixelHit 1324, 930, 118.479, 0
+PixelHit 1324, 931, 534.514, 0
+PixelHit 1324, 932, 242.079, 0
+PixelHit 1324, 934, 155.951, 0
+PixelHit 1325, 929, 106.963, 0
+PixelHit 1325, 931, 172.129, 0
+PixelHit 1326, 931, 206.015, 0
+PixelHit 1326, 932, 139.892, 0
+PixelHit 1326, 934, 108.609, 0
+=== 64 ===
+--- mydetector ---
+PixelHit 1332, 1020, 239.814, 0
+PixelHit 1332, 1021, 50.9696, 0
+PixelHit 1333, 1020, 155.545, 0
+PixelHit 1333, 1022, 128.792, 0
+PixelHit 1334, 1017, 266.028, 0
+PixelHit 1334, 1018, 239.747, 0
+PixelHit 1334, 1020, 253.241, 0
+PixelHit 1334, 1021, 329.486, 0
+PixelHit 1335, 1019, 160.024, 0
+=== 65 ===
+--- mydetector ---
+PixelHit 1293, 986, 60.1519, 0
+PixelHit 1293, 989, 64.8727, 0
+PixelHit 1294, 990, 130.688, 0
+PixelHit 1295, 990, 80.1122, 0
+PixelHit 1295, 991, 114.7, 0
+PixelHit 1295, 992, 200.964, 0
+PixelHit 1296, 989, 211.791, 0
+PixelHit 1296, 990, 217.138, 0
+PixelHit 1296, 991, 263.727, 0
+PixelHit 1296, 992, 202.346, 0
+PixelHit 1297, 991, 62.6716, 0
+PixelHit 1298, 990, 204.506, 0
+=== 66 ===
+--- mydetector ---
+PixelHit 1315, 1000, 166.838, 0
+PixelHit 1316, 1005, 160.164, 0
+PixelHit 1317, 1000, 113.678, 0
+PixelHit 1317, 1003, 122.953, 0
+PixelHit 1317, 1004, 212.24, 0
+PixelHit 1317, 1005, 97.0059, 0
+PixelHit 1318, 1000, 87.5698, 0
+PixelHit 1318, 1001, 111.094, 0
+PixelHit 1318, 1002, 504.057, 0
+PixelHit 1318, 1003, 730.445, 0
+PixelHit 1318, 1004, 199.892, 0
+PixelHit 1319, 1001, 189.524, 0
+PixelHit 1319, 1002, 114.974, 0
+PixelHit 1319, 1003, 328.656, 0
+PixelHit 1319, 1004, 114.279, 0
+PixelHit 1320, 1003, 69.0118, 0
+PixelHit 1320, 1004, 70.9832, 0
+=== 67 ===
+--- mydetector ---
+PixelHit 1337, 941, 222.122, 0
+PixelHit 1337, 943, 223.954, 0
+PixelHit 1338, 941, 199.799, 0
+PixelHit 1339, 938, 232.638, 0
+PixelHit 1339, 940, 245.08, 0
+PixelHit 1339, 941, 111.2, 0
+PixelHit 1339, 943, 342.746, 0
+PixelHit 1340, 938, 47.8226, 0
+PixelHit 1340, 939, 323.035, 0
+PixelHit 1340, 940, 265.398, 0
+PixelHit 1340, 941, 268.182, 0
+PixelHit 1340, 942, 155.53, 0
+PixelHit 1341, 941, 251.655, 0
+PixelHit 1341, 944, 84.9172, 0
+=== 68 ===
+--- mydetector ---
+PixelHit 1338, 995, 160.168, 0
+PixelHit 1338, 999, 87.1663, 0
+PixelHit 1339, 995, 344.559, 0
+PixelHit 1339, 998, 81.7842, 0
+PixelHit 1340, 994, 71.9065, 0
+PixelHit 1340, 995, 95.3142, 0
+PixelHit 1340, 996, 164.789, 0
+PixelHit 1340, 997, 272.009, 0
+PixelHit 1340, 1000, 83.554, 0
+PixelHit 1341, 995, 69.7922, 0
+PixelHit 1341, 997, 69.8766, 0
+PixelHit 1343, 996, 112.23, 0
+PixelHit 1343, 998, 51.4968, 0
+=== 69 ===
+--- mydetector ---
+PixelHit 1298, 982, 169.678, 0
+PixelHit 1298, 983, 52.58, 0
+PixelHit 1299, 984, 60.3787, 0
+PixelHit 1299, 986, 159.573, 0
+PixelHit 1300, 983, 164.17, 0
+PixelHit 1300, 984, 387.398, 0
+PixelHit 1300, 985, 182.506, 0
+PixelHit 1300, 986, 170.411, 0
+PixelHit 1301, 981, 113.492, 0
+PixelHit 1301, 983, 108.49, 0
+PixelHit 1301, 984, 62.5189, 0
+PixelHit 1301, 985, 72.2647, 0
+PixelHit 1302, 985, 231.72, 0
+=== 70 ===
+--- mydetector ---
+PixelHit 1322, 930, 163.403, 0
+PixelHit 1324, 931, 145.061, 0
+PixelHit 1325, 928, 97.9986, 0
+PixelHit 1325, 929, 245.73, 0
+PixelHit 1325, 931, 176.225, 0
+PixelHit 1325, 935, 158.871, 0
+PixelHit 1326, 927, 236.917, 0
+PixelHit 1326, 928, 316.836, 0
+PixelHit 1326, 929, 396.917, 0
+PixelHit 1326, 931, 173.978, 0
+PixelHit 1327, 928, 147.072, 0
+PixelHit 1327, 929, 155.923, 0
+PixelHit 1327, 930, 88.0152, 0
+PixelHit 1328, 927, 113.21, 0
+PixelHit 1328, 928, 339.727, 0
+PixelHit 1328, 929, 95.4371, 0
+=== 71 ===
+--- mydetector ---
+PixelHit 1276, 941, 71.8679, 0
+PixelHit 1277, 935, 108.737, 0
+PixelHit 1278, 936, 107.609, 0
+PixelHit 1279, 939, 147.586, 0
+PixelHit 1280, 935, 141.861, 0
+PixelHit 1280, 936, 140.35, 0
+PixelHit 1280, 937, 348.847, 0
+PixelHit 1280, 938, 167.947, 0
+PixelHit 1280, 939, 314.332, 0
+PixelHit 1281, 933, 55.0077, 0
+PixelHit 1281, 936, 134.915, 0
+PixelHit 1281, 937, 560.164, 0
+PixelHit 1282, 939, 135.99, 0
+PixelHit 1283, 936, 74.1004, 0
+=== 72 ===
+--- mydetector ---
+PixelHit 1288, 953, 94.4622, 0
+PixelHit 1288, 957, 86.2406, 0
+PixelHit 1289, 951, 153.815, 0
+PixelHit 1289, 952, 79.3053, 0
+PixelHit 1289, 953, 473.398, 0
+PixelHit 1289, 955, 137.992, 0
+PixelHit 1290, 951, 64.8978, 0
+PixelHit 1290, 953, 354.948, 0
+PixelHit 1290, 954, 269.464, 0
+PixelHit 1290, 955, 107.778, 0
+PixelHit 1291, 951, 384.987, 0
+PixelHit 1291, 956, 65.8487, 0
+=== 73 ===
+--- mydetector ---
+PixelHit 1334, 963, 51.0056, 0
+PixelHit 1334, 965, 234.57, 0
+PixelHit 1336, 964, 183.712, 0
+PixelHit 1337, 963, 133.465, 0
+PixelHit 1337, 964, 188.897, 0
+PixelHit 1337, 966, 163.311, 0
+PixelHit 1337, 967, 113.707, 0
+PixelHit 1338, 963, 84.584, 0
+PixelHit 1338, 964, 364.782, 0
+PixelHit 1338, 965, 580.412, 0
+PixelHit 1339, 964, 450.832, 0
+PixelHit 1339, 965, 348.779, 0
+PixelHit 1339, 966, 348.54, 0
+PixelHit 1340, 964, 116.5, 0
+PixelHit 1340, 965, 252.107, 0
+PixelHit 1340, 966, 163.757, 0
+PixelHit 1341, 964, 78.1138, 0
+PixelHit 1341, 965, 112.823, 0
+PixelHit 1342, 966, 205.962, 0
+PixelHit 1342, 967, 181.605, 0
+=== 74 ===
+--- mydetector ---
+PixelHit 1352, 932, 209.15, 0
+PixelHit 1352, 933, 147.877, 0
+PixelHit 1353, 931, 128.504, 0
+PixelHit 1354, 929, 192.517, 0
+PixelHit 1354, 930, 106.991, 0
+PixelHit 1354, 931, 130.157, 0
+PixelHit 1354, 932, 58.7701, 0
+PixelHit 1355, 930, 151.017, 0
+PixelHit 1355, 931, 537.306, 0
+PixelHit 1355, 932, 212.704, 0
+PixelHit 1355, 933, 173.471, 0
+PixelHit 1355, 934, 148.503, 0
+PixelHit 1356, 929, 217.693, 0
+PixelHit 1356, 930, 256.894, 0
+PixelHit 1356, 931, 527.873, 0
+PixelHit 1356, 932, 252.617, 0
+PixelHit 1357, 931, 171.051, 0
+=== 75 ===
+--- mydetector ---
+PixelHit 1280, 987, 94.4005, 0
+PixelHit 1280, 992, 67.0026, 0
+PixelHit 1280, 993, 233.636, 0
+PixelHit 1281, 991, 218.709, 0
+PixelHit 1282, 988, 207.328, 0
+PixelHit 1282, 990, 290.231, 0
+PixelHit 1283, 987, 52.5191, 0
+PixelHit 1283, 988, 96.399, 0
+PixelHit 1283, 989, 320.283, 0
+PixelHit 1283, 990, 457.989, 0
+PixelHit 1283, 992, 139.019, 0
+PixelHit 1284, 989, 208.167, 0
+PixelHit 1284, 990, 66.1532, 0
+PixelHit 1286, 988, 155.486, 0
+PixelHit 1286, 990, 95.6569, 0
+=== 76 ===
+--- mydetector ---
+PixelHit 1298, 1023, 69.9933, 0
+PixelHit 1299, 1020, 335.804, 0
+PixelHit 1299, 1022, 77.3942, 0
+PixelHit 1300, 1019, 151.881, 0
+PixelHit 1300, 1020, 102.817, 0
+PixelHit 1300, 1021, 374.934, 0
+PixelHit 1300, 1022, 123.866, 0
+PixelHit 1300, 1023, 95.4819, 0
+PixelHit 1301, 1021, 108.799, 0
+PixelHit 1301, 1022, 148.15, 0
+PixelHit 1302, 1019, 363.791, 0
+PixelHit 1302, 1022, 102.672, 0
+=== 77 ===
+--- mydetector ---
+PixelHit 1256, 1004, 105.155, 0
+PixelHit 1258, 1000, 138.918, 0
+PixelHit 1258, 1001, 99.57, 0
+PixelHit 1258, 1002, 96.5157, 0
+PixelHit 1258, 1003, 172.945, 0
+PixelHit 1258, 1005, 58.4841, 0
+PixelHit 1259, 1000, 62.1772, 0
+PixelHit 1259, 1001, 259.416, 0
+PixelHit 1259, 1002, 219.097, 0
+PixelHit 1259, 1003, 170.459, 0
+PixelHit 1259, 1004, 104.28, 0
+PixelHit 1260, 1000, 399.006, 0
+PixelHit 1260, 1001, 192.686, 0
+PixelHit 1260, 1002, 512.444, 0
+PixelHit 1260, 1003, 652.857, 0
+PixelHit 1260, 1004, 279.384, 0
+PixelHit 1261, 1000, 94.8787, 0
+PixelHit 1261, 1001, 582.597, 0
+PixelHit 1261, 1002, 633.387, 0
+PixelHit 1261, 1003, 537.41, 0
+PixelHit 1261, 1004, 162.392, 0
+PixelHit 1262, 1000, 299.8, 0
+PixelHit 1262, 1001, 489.482, 0
+PixelHit 1262, 1002, 395.628, 0
+PixelHit 1262, 1003, 158.632, 0
+PixelHit 1262, 1004, 244.124, 0
+PixelHit 1262, 1005, 160.467, 0
+PixelHit 1263, 998, 152.057, 0
+PixelHit 1263, 1000, 69.8799, 0
+PixelHit 1263, 1001, 72.6028, 0
+PixelHit 1263, 1002, 99.9394, 0
+PixelHit 1263, 1004, 160.577, 0
+PixelHit 1264, 1000, 167.05, 0
+PixelHit 1264, 1001, 193.477, 0
+PixelHit 1264, 1003, 277.235, 0
+PixelHit 1264, 1004, 159.956, 0
+PixelHit 1264, 1005, 210.626, 0
+PixelHit 1265, 1002, 134.182, 0
+=== 78 ===
+--- mydetector ---
+PixelHit 1277, 974, 99.4841, 0
+PixelHit 1277, 976, 108.369, 0
+PixelHit 1277, 977, 343.364, 0
+PixelHit 1278, 974, 121.167, 0
+PixelHit 1278, 976, 250.968, 0
+PixelHit 1278, 978, 138.314, 0
+PixelHit 1279, 975, 191.8, 0
+PixelHit 1279, 976, 174.432, 0
+PixelHit 1279, 977, 149.776, 0
+PixelHit 1280, 975, 104.595, 0
+PixelHit 1280, 976, 383.784, 0
+PixelHit 1280, 977, 116.674, 0
+PixelHit 1280, 978, 174.473, 0
+PixelHit 1280, 979, 71.3028, 0
+PixelHit 1281, 973, 293.348, 0
+PixelHit 1281, 976, 73.2883, 0
+PixelHit 1281, 977, 106.088, 0
+PixelHit 1281, 978, 87.3045, 0
+PixelHit 1282, 975, 122.149, 0
+PixelHit 1283, 975, 129.744, 0
+=== 79 ===
+--- mydetector ---
+PixelHit 1284, 952, 65.1819, 0
+PixelHit 1285, 950, 59.299, 0
+PixelHit 1285, 951, 71.0553, 0
+PixelHit 1286, 948, 175.172, 0
+PixelHit 1286, 950, 1192.98, 0
+PixelHit 1286, 951, 788.061, 0
+PixelHit 1286, 952, 280.076, 0
+PixelHit 1287, 949, 135.92, 0
+PixelHit 1287, 950, 586.117, 0
+PixelHit 1287, 951, 577.986, 0
+PixelHit 1287, 953, 268.801, 0
+PixelHit 1288, 949, 200.022, 0
+PixelHit 1290, 951, 193.853, 0
+=== 80 ===
+--- mydetector ---
+PixelHit 1293, 968, 166.845, 0
+PixelHit 1294, 968, 175.286, 0
+PixelHit 1294, 969, 66.7, 0
+PixelHit 1294, 970, 81.9063, 0
+PixelHit 1294, 971, 314.083, 0
+PixelHit 1294, 972, 174.819, 0
+PixelHit 1295, 967, 127.451, 0
+PixelHit 1295, 969, 45.6812, 0
+PixelHit 1295, 970, 239.181, 0
+PixelHit 1295, 971, 312.357, 0
+PixelHit 1295, 972, 262.461, 0
+PixelHit 1296, 967, 75.7125, 0
+PixelHit 1296, 969, 93.5988, 0
+PixelHit 1296, 970, 361.678, 0
+PixelHit 1296, 971, 140.013, 0
+PixelHit 1297, 969, 117.395, 0
+PixelHit 1297, 970, 117.067, 0
+PixelHit 1297, 971, 154.123, 0
+PixelHit 1297, 974, 101.016, 0
+=== 81 ===
+--- mydetector ---
+PixelHit 1254, 921, 118.376, 0
+PixelHit 1256, 921, 288.561, 0
+PixelHit 1256, 922, 397.427, 0
+PixelHit 1256, 923, 180.763, 0
+PixelHit 1256, 924, 190.294, 0
+PixelHit 1256, 927, 293.362, 0
+PixelHit 1257, 919, 139.41, 0
+PixelHit 1257, 921, 229.274, 0
+PixelHit 1257, 922, 348.891, 0
+PixelHit 1257, 923, 134.272, 0
+PixelHit 1258, 920, 97.2092, 0
+PixelHit 1258, 921, 176.851, 0
+PixelHit 1258, 923, 164.209, 0
+PixelHit 1259, 921, 103.641, 0
+PixelHit 1259, 922, 141.581, 0
+PixelHit 1260, 921, 50.0131, 0
+=== 82 ===
+--- mydetector ---
+PixelHit 1302, 1005, 167.741, 0
+PixelHit 1302, 1007, 69.9252, 0
+PixelHit 1302, 1008, 222.349, 0
+PixelHit 1302, 1009, 228.777, 0
+PixelHit 1302, 1010, 145.233, 0
+PixelHit 1303, 1005, 160.897, 0
+PixelHit 1303, 1006, 47.8512, 0
+PixelHit 1303, 1007, 134.548, 0
+PixelHit 1303, 1008, 294.363, 0
+PixelHit 1303, 1009, 666.595, 0
+PixelHit 1303, 1010, 582.249, 0
+PixelHit 1303, 1011, 78.879, 0
+PixelHit 1303, 1012, 227.169, 0
+PixelHit 1304, 1004, 209.517, 0
+PixelHit 1304, 1006, 475.081, 0
+PixelHit 1304, 1007, 454.188, 0
+PixelHit 1304, 1008, 319.306, 0
+PixelHit 1304, 1009, 653.319, 0
+PixelHit 1304, 1010, 733.814, 0
+PixelHit 1304, 1011, 521.843, 0
+PixelHit 1305, 1007, 340.084, 0
+PixelHit 1305, 1008, 401.378, 0
+PixelHit 1305, 1009, 356.024, 0
+PixelHit 1305, 1010, 174.193, 0
+PixelHit 1305, 1011, 102.811, 0
+PixelHit 1305, 1012, 55.0873, 0
+PixelHit 1306, 1006, 201.022, 0
+PixelHit 1306, 1007, 202.4, 0
+PixelHit 1306, 1008, 109.752, 0
+PixelHit 1306, 1009, 86.2462, 0
+PixelHit 1306, 1010, 87.4392, 0
+PixelHit 1307, 1006, 73.2985, 0
+PixelHit 1307, 1008, 120.395, 0
+=== 83 ===
+--- mydetector ---
+PixelHit 1312, 1002, 155.976, 0
+PixelHit 1313, 998, 116.737, 0
+PixelHit 1313, 1000, 93.8993, 0
+PixelHit 1313, 1001, 71.0894, 0
+PixelHit 1314, 1005, 166.957, 0
+PixelHit 1315, 999, 217.965, 0
+PixelHit 1315, 1000, 218.254, 0
+PixelHit 1315, 1001, 120.998, 0
+PixelHit 1316, 999, 295.467, 0
+PixelHit 1316, 1000, 168.108, 0
+PixelHit 1316, 1001, 97.1707, 0
+PixelHit 1317, 997, 109.042, 0
+PixelHit 1317, 999, 65.4952, 0
+PixelHit 1318, 998, 140.248, 0
+PixelHit 1318, 1002, 130.912, 0
+=== 84 ===
+--- mydetector ---
+PixelHit 1259, 891, 118.111, 0
+PixelHit 1260, 887, 89.7204, 0
+PixelHit 1260, 891, 161.77, 0
+PixelHit 1261, 889, 56.8109, 0
+PixelHit 1261, 890, 143.722, 0
+PixelHit 1262, 887, 57.6361, 0
+PixelHit 1262, 888, 194.494, 0
+PixelHit 1262, 889, 453.213, 0
+PixelHit 1262, 890, 232.885, 0
+PixelHit 1262, 892, 166.673, 0
+PixelHit 1263, 888, 191.06, 0
+PixelHit 1263, 890, 156.031, 0
+PixelHit 1264, 890, 123.062, 0
+=== 85 ===
+--- mydetector ---
+PixelHit 1236, 1010, 178.997, 0
+PixelHit 1237, 1009, 233.36, 0
+PixelHit 1237, 1010, 362.691, 0
+PixelHit 1237, 1012, 112.866, 0
+PixelHit 1237, 1013, 97.9398, 0
+PixelHit 1238, 1007, 114.886, 0
+PixelHit 1238, 1010, 243.422, 0
+PixelHit 1238, 1011, 245.461, 0
+PixelHit 1238, 1012, 99.9974, 0
+PixelHit 1238, 1014, 218.895, 0
+PixelHit 1239, 1008, 62.409, 0
+PixelHit 1239, 1009, 62.9465, 0
+PixelHit 1239, 1010, 541.392, 0
+PixelHit 1239, 1011, 285.007, 0
+PixelHit 1239, 1012, 116.107, 0
+PixelHit 1239, 1013, 279.918, 0
+PixelHit 1240, 1009, 259.532, 0
+PixelHit 1240, 1010, 542.347, 0
+PixelHit 1240, 1011, 375.438, 0
+PixelHit 1240, 1012, 156.85, 0
+PixelHit 1240, 1013, 59.4184, 0
+PixelHit 1241, 1008, 100.462, 0
+PixelHit 1241, 1009, 151.636, 0
+PixelHit 1241, 1010, 136.544, 0
+PixelHit 1242, 1009, 108.71, 0
+PixelHit 1242, 1010, 207.445, 0
+PixelHit 1242, 1011, 134.88, 0
+PixelHit 1242, 1012, 271.904, 0
+PixelHit 1243, 1012, 100.875, 0
+=== 86 ===
+--- mydetector ---
+PixelHit 1286, 979, 79.2493, 0
+PixelHit 1288, 977, 66.9359, 0
+PixelHit 1288, 978, 332.58, 0
+PixelHit 1288, 979, 87.3033, 0
+PixelHit 1288, 980, 55.4892, 0
+PixelHit 1289, 978, 255.099, 0
+PixelHit 1289, 979, 209.587, 0
+PixelHit 1290, 976, 90.4518, 0
+PixelHit 1291, 978, 78.665, 0
+PixelHit 1292, 979, 72.0114, 0
+=== 87 ===
+--- mydetector ---
+PixelHit 1307, 988, 64.3963, 0
+PixelHit 1307, 990, 110.61, 0
+PixelHit 1308, 987, 95.8691, 0
+PixelHit 1309, 986, 186.817, 0
+PixelHit 1309, 988, 251.362, 0
+PixelHit 1309, 990, 102.513, 0
+PixelHit 1310, 985, 81.0508, 0
+PixelHit 1310, 987, 191.701, 0
+PixelHit 1310, 988, 303.695, 0
+PixelHit 1310, 989, 312.281, 0
+PixelHit 1310, 991, 215.528, 0
+PixelHit 1311, 987, 143.871, 0
+PixelHit 1311, 989, 67.6413, 0
+PixelHit 1312, 987, 60.6114, 0
+PixelHit 1312, 989, 50.9461, 0
+PixelHit 1313, 989, 112.579, 0
+PixelHit 1314, 988, 83.9362, 0
+=== 88 ===
+--- mydetector ---
+PixelHit 1299, 957, 86.8955, 0
+PixelHit 1301, 956, 66.6516, 0
+PixelHit 1302, 957, 95.8732, 0
+PixelHit 1302, 958, 138.889, 0
+PixelHit 1303, 955, 70.1792, 0
+PixelHit 1303, 956, 580.09, 0
+PixelHit 1303, 957, 809.275, 0
+PixelHit 1303, 958, 141.942, 0
+PixelHit 1304, 949, 260.313, 0
+PixelHit 1304, 955, 172.605, 0
+PixelHit 1304, 956, 371.549, 0
+PixelHit 1304, 957, 636.131, 0
+PixelHit 1304, 958, 140.469, 0
+PixelHit 1305, 957, 73.5561, 0
+PixelHit 1305, 960, 110.749, 0
+PixelHit 1306, 957, 62.8502, 0
+PixelHit 1306, 958, 59.9671, 0
+PixelHit 1308, 956, 143.317, 0
+=== 89 ===
+--- mydetector ---
+PixelHit 1324, 1053, 308.597, 0
+PixelHit 1325, 1051, 58.8501, 0
+PixelHit 1325, 1052, 322.203, 0
+PixelHit 1325, 1053, 186.477, 0
+PixelHit 1326, 1053, 513.274, 0
+PixelHit 1326, 1054, 60.9109, 0
+PixelHit 1326, 1057, 273.607, 0
+PixelHit 1327, 1052, 248.362, 0
+PixelHit 1327, 1053, 393.793, 0
+PixelHit 1327, 1054, 131.053, 0
+PixelHit 1328, 1053, 172.357, 0
+PixelHit 1328, 1054, 338.616, 0
+PixelHit 1329, 1053, 55.8284, 0
+PixelHit 1329, 1056, 111.196, 0
+PixelHit 1330, 1056, 195.342, 0
+=== 90 ===
+--- mydetector ---
+PixelHit 1356, 986, 173.063, 0
+PixelHit 1356, 987, 128.749, 0
+PixelHit 1356, 988, 144.466, 0
+PixelHit 1356, 990, 61.3356, 0
+PixelHit 1357, 986, 261.363, 0
+PixelHit 1357, 987, 379.338, 0
+PixelHit 1358, 986, 265.735, 0
+PixelHit 1358, 987, 506.4, 0
+PixelHit 1358, 988, 165.835, 0
+PixelHit 1359, 986, 153.811, 0
+PixelHit 1361, 984, 160.14, 0
+=== 91 ===
+--- mydetector ---
+PixelHit 1244, 944, 67.7098, 0
+PixelHit 1244, 946, 103.474, 0
+PixelHit 1245, 944, 300.371, 0
+PixelHit 1245, 945, 474.634, 0
+PixelHit 1245, 946, 412.295, 0
+PixelHit 1245, 947, 152.297, 0
+PixelHit 1245, 948, 68.0141, 0
+PixelHit 1246, 942, 143.859, 0
+PixelHit 1246, 943, 203.836, 0
+PixelHit 1246, 944, 875.483, 0
+PixelHit 1246, 945, 842.895, 0
+PixelHit 1246, 946, 720.352, 0
+PixelHit 1246, 947, 289.641, 0
+PixelHit 1247, 943, 261.135, 0
+PixelHit 1247, 944, 214.228, 0
+PixelHit 1247, 945, 384.175, 0
+PixelHit 1247, 946, 240.189, 0
+PixelHit 1247, 947, 300.685, 0
+PixelHit 1248, 943, 221.513, 0
+PixelHit 1248, 946, 129.531, 0
+PixelHit 1248, 947, 219.297, 0
+PixelHit 1249, 943, 81.5857, 0
+PixelHit 1249, 946, 93.7331, 0
+PixelHit 1250, 943, 226.075, 0
+=== 92 ===
+--- mydetector ---
+PixelHit 1313, 962, 92.103, 0
+PixelHit 1313, 964, 179.211, 0
+PixelHit 1313, 969, 194.264, 0
+PixelHit 1314, 965, 196.985, 0
+PixelHit 1315, 965, 228.695, 0
+PixelHit 1315, 966, 109.301, 0
+PixelHit 1315, 967, 231.115, 0
+PixelHit 1316, 963, 108.74, 0
+PixelHit 1316, 965, 370.901, 0
+PixelHit 1316, 966, 252.948, 0
+PixelHit 1317, 964, 214.61, 0
+PixelHit 1317, 965, 144.315, 0
+PixelHit 1317, 967, 55.4723, 0
+PixelHit 1318, 962, 75.876, 0
+=== 93 ===
+--- mydetector ---
+PixelHit 1288, 994, 132.553, 0
+PixelHit 1290, 987, 155.902, 0
+PixelHit 1290, 991, 320.483, 0
+PixelHit 1291, 987, 76.1899, 0
+PixelHit 1291, 988, 215.476, 0
+PixelHit 1291, 989, 161.949, 0
+PixelHit 1291, 990, 336.186, 0
+PixelHit 1291, 991, 53.7025, 0
+PixelHit 1292, 989, 119.159, 0
+PixelHit 1292, 990, 88.0687, 0
+PixelHit 1293, 988, 74.0767, 0
+PixelHit 1293, 989, 217.567, 0
+PixelHit 1293, 990, 162.889, 0
+PixelHit 1293, 991, 71.6611, 0
+PixelHit 1294, 989, 148.718, 0
+PixelHit 1295, 988, 50.4704, 0
+=== 94 ===
+--- mydetector ---
+PixelHit 1288, 932, 193.709, 0
+PixelHit 1292, 928, 72.0196, 0
+PixelHit 1293, 929, 244.453, 0
+PixelHit 1293, 931, 81.5951, 0
+PixelHit 1294, 928, 245.574, 0
+PixelHit 1294, 929, 495.752, 0
+PixelHit 1294, 931, 111.325, 0
+PixelHit 1294, 932, 98.4094, 0
+PixelHit 1295, 928, 103.746, 0
+PixelHit 1295, 929, 278.235, 0
+PixelHit 1295, 930, 46.7573, 0
+PixelHit 1295, 931, 62.0494, 0
+PixelHit 1296, 928, 205.913, 0
+PixelHit 1296, 929, 243.981, 0
+PixelHit 1298, 927, 88.332, 0
+PixelHit 1298, 930, 76.7945, 0
+PixelHit 1298, 931, 90.7103, 0
+=== 95 ===
+--- mydetector ---
+PixelHit 1276, 975, 130.465, 0
+PixelHit 1277, 974, 117.497, 0
+PixelHit 1278, 972, 144.502, 0
+PixelHit 1278, 973, 505.029, 0
+PixelHit 1279, 973, 484.321, 0
+PixelHit 1279, 974, 317.395, 0
+PixelHit 1280, 972, 162.674, 0
+PixelHit 1280, 973, 230.081, 0
+PixelHit 1280, 974, 135.448, 0
+PixelHit 1281, 974, 128.026, 0
+PixelHit 1282, 972, 231.683, 0
+=== 96 ===
+--- mydetector ---
+PixelHit 1325, 941, 314.989, 0
+PixelHit 1325, 943, 118.757, 0
+PixelHit 1325, 944, 103.676, 0
+PixelHit 1326, 942, 263.01, 0
+PixelHit 1326, 943, 271.795, 0
+PixelHit 1326, 944, 320.927, 0
+PixelHit 1326, 945, 102.245, 0
+PixelHit 1327, 940, 107.254, 0
+PixelHit 1327, 941, 371.147, 0
+PixelHit 1327, 942, 768.429, 0
+PixelHit 1327, 943, 724.308, 0
+PixelHit 1327, 944, 379.89, 0
+PixelHit 1327, 945, 72.3516, 0
+PixelHit 1328, 939, 91.7296, 0
+PixelHit 1328, 940, 89.3125, 0
+PixelHit 1328, 941, 129.064, 0
+PixelHit 1328, 942, 573.465, 0
+PixelHit 1328, 943, 695.023, 0
+PixelHit 1328, 944, 564.581, 0
+PixelHit 1328, 945, 221.171, 0
+PixelHit 1329, 939, 162.358, 0
+PixelHit 1329, 941, 110.308, 0
+PixelHit 1329, 942, 392.216, 0
+PixelHit 1329, 943, 768.659, 0
+PixelHit 1329, 944, 375.73, 0
+PixelHit 1329, 945, 267.317, 0
+PixelHit 1330, 940, 67.9262, 0
+PixelHit 1330, 941, 125.75, 0
+PixelHit 1330, 942, 177.111, 0
+PixelHit 1330, 943, 470.351, 0
+PixelHit 1330, 944, 403.516, 0
+PixelHit 1330, 945, 140.155, 0
+PixelHit 1331, 941, 255.437, 0
+PixelHit 1331, 942, 145.584, 0
+PixelHit 1331, 943, 305.066, 0
+PixelHit 1331, 945, 136.927, 0
+PixelHit 1332, 941, 69.9064, 0
+PixelHit 1332, 944, 104.849, 0
+PixelHit 1333, 942, 175.788, 0
+=== 97 ===
+--- mydetector ---
+PixelHit 1287, 969, 130.266, 0
+PixelHit 1289, 972, 75.6526, 0
+PixelHit 1291, 973, 90.8628, 0
+PixelHit 1292, 970, 108.643, 0
+PixelHit 1292, 971, 278.567, 0
+PixelHit 1292, 972, 804.159, 0
+PixelHit 1292, 973, 227.766, 0
+PixelHit 1293, 969, 211.269, 0
+PixelHit 1293, 970, 87.2133, 0
+PixelHit 1293, 971, 476.039, 0
+PixelHit 1293, 973, 59.2138, 0
+PixelHit 1294, 970, 88.0188, 0
+=== 98 ===
+--- mydetector ---
+PixelHit 1325, 1024, 251.618, 0
+PixelHit 1325, 1025, 103.083, 0
+PixelHit 1326, 1026, 83.8794, 0
+PixelHit 1326, 1027, 394.902, 0
+PixelHit 1327, 1026, 178.074, 0
+PixelHit 1327, 1027, 219.321, 0
+PixelHit 1328, 1025, 111.274, 0
+PixelHit 1328, 1026, 123.684, 0
+PixelHit 1328, 1027, 158.03, 0
+PixelHit 1328, 1028, 118.38, 0
+PixelHit 1329, 1028, 68.0522, 0
+=== 99 ===
+--- mydetector ---
+PixelHit 1279, 1004, 79.7946, 0
+PixelHit 1280, 1006, 236.356, 0
+PixelHit 1280, 1009, 66.8705, 0
+PixelHit 1281, 1004, 81.2308, 0
+PixelHit 1281, 1006, 355.647, 0
+PixelHit 1281, 1007, 93.1198, 0
+PixelHit 1282, 1006, 200.173, 0
+PixelHit 1282, 1007, 129.376, 0
+PixelHit 1282, 1008, 201.026, 0
+PixelHit 1283, 1005, 154.981, 0
+PixelHit 1283, 1006, 163.963, 0
+PixelHit 1283, 1009, 121.942, 0
+=== 100 ===
+--- mydetector ---
+PixelHit 1304, 1003, 67.394, 0
+PixelHit 1305, 1002, 138.485, 0
+PixelHit 1306, 998, 56.281, 0
+PixelHit 1306, 1000, 198.946, 0
+PixelHit 1306, 1001, 89.1274, 0
+PixelHit 1306, 1003, 49.4697, 0
+PixelHit 1307, 1001, 473.741, 0
+PixelHit 1307, 1002, 286.705, 0
+PixelHit 1308, 1000, 61.3289, 0
+PixelHit 1308, 1001, 475.454, 0
+PixelHit 1308, 1003, 134.965, 0
+PixelHit 1309, 1000, 62.3572, 0
+PixelHit 1309, 1001, 209.011, 0
+PixelHit 1311, 998, 105.742, 0
+# 1839 objects from 100 messages
