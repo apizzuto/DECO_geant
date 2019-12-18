@@ -5,12 +5,16 @@ import pprint
 import shlex
 import subprocess
 
-particles = ['e+', 'mu+', 'gamma']
+#particles = ['e+', 'mu+', 'gamma']
 #particles = ['e-']
 #particles = ['gamma']
 
-energies = ['10keV', '31.6keV','100keV', '316keV','1MeV', '3.16MeV','10MeV', '31.6MeV','100MeV', '316MeV',
-		'1GeV', '3.16GeV','10GeV']
+particles = ['mu+']
+
+#energies = ['10keV', '31.6keV','100keV', '316keV','1MeV', '3.16MeV','10MeV', '31.6MeV','100MeV', '316MeV',
+#		'1GeV', '3.16GeV','10GeV']
+
+energies = ['1GeV']
 
 #Change if not using on local machine
 base_command = '/Users/APizzuto/Desktop/allpix/allpix-squared/bin/allpix -c ./source_measurement.conf -o'
