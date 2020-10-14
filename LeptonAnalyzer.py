@@ -5,9 +5,10 @@ class DECOLeptonAnalyzer():
     notebook that read in a bunch of simulated files
     and make analysis level plots'''
     
-    def __init__(self, pid):
+    def __init__(self, pid, **kwargs):
         self.pid = pid
         self.energies = np.logspace()
+        self.depletion_thickness = kwargs.pop(.......)
 
 
     def bethe_bloch_plot(self):
