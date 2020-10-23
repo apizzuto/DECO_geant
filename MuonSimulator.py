@@ -11,9 +11,9 @@ class DECOMuonSimulator():
     def __init__(self, pid, energy, theta, **kwargs):
         self.pid = pid #Particle id, ie mu+, e-
         self.energy = energy
-        self.theta = theta
-        self.phi = kwargs.pop('phi', 0.)
-        self.depletion_thickness = kwargs.pop('depletion_thickness', 26.3)
+        self.theta = float(theta)
+        self.phi = float(kwargs.pop('phi', 0.))
+        self.depletion_thickness = float(kwargs.pop('depletion_thickness', 26.3))
         #todo: NOTE: in unit of um !!!!!!!
         # Set other possible systematics with kwargs, including
         # electric fields, pixel size, etc.
@@ -114,8 +114,17 @@ class DECOMuonSimulator():
         # simulation doesn't work
 
 
-deco = DECOMuonSimulator('e+', '1GeV', 70.0, phi=120, depletion_thickness=30)
-deco.run_simulation(10)
 
-deco2 = DECOMuonSimulator('e+', '10GeV', 30.0)
-deco2.run_simulation(10)
+
+energy = ['10keV', '31.6keV', '100keV', '316keV', '1MeV', '3.16MeV',
+       '10MeV', '31.6MeV', '100MeV', '316MeV', '1GeV', '3.16GeV', '10GeV']
+
+angles = ['0', '15', '30', '45', '60', '75']
+
+for e in energy:
+    for ang in angles:
+        a = DECOMuonSimulator('mu+', e, ang, phi='30', depletion_thickness='26.3')
+
+        a.run_simulation(100)
+
+
