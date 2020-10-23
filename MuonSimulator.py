@@ -38,7 +38,7 @@ class DECOMuonSimulator():
         with open('./htc_wildfire/detector_replace.conf', 'r') as f:
             data = f.readlines()
         data[-2] = data[-2].format(self.phi, self.theta, 0)
-        with open('./htc_wildfire/detector_temp.conf', 'w') as wf:
+        with open('./htc_wildfire/detector.conf', 'w') as wf:
             wf.writelines(data)
             wf.close()
 
