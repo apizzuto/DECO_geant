@@ -1,4 +1,10 @@
 import numpy as np
+import pandas as pd
+import matplotlib.pylab as plt
+from matplotlib.colors import ListedColormap
+import seaborn as sns
+import os
+plt.style.use("IceCube")
 
 
 class DECOLeptonAnalyzer():
@@ -6,9 +12,24 @@ class DECOLeptonAnalyzer():
     notebook that read in a bunch of simulated files
     and make analysis level plots'''
 
-    def __init__(self, pid):
+    def __init__(self, pid, energy_levels, en_float, theta_list, phi, thickness):
         self.pid = pid
-        #self.energies = np.logspace()
+
+        self.thichness = thickness
+
+        self.col_names = ['Energy', 'Theta (degrees)', 'Phi', 'Deposited Charge ($N_{e^{-}}$)',
+                     'Energy (GeV)', 'Track Length (pixels)', 'Charge per unit length']
+
+        self.energy_levels = energy_levels
+
+        self.en_float = en_float
+
+        self.theta_angles = theta_list
+
+        self.phi = phi
+
+        self.data_list = self.data_processing()
+
 
     def read_hit_file(self, filename):
         f = open(filename, 'r')
@@ -21,6 +42,7 @@ class DECOLeptonAnalyzer():
 
         x, y, c = [], [], []
 
+        flag = 1
         while 1:
 
             temp = f.readline().split()
@@ -29,21 +51,25 @@ class DECOLeptonAnalyzer():
                 break
 
             if temp[0] == '===':
-                f.readline()
-                if int(temp[1]) != 1:
+                continue
+            if temp[0] == '---':
+                if flag == 1:
+                    flag = 0
+                else:
                     xhits.append(x)
                     yhits.append(y)
                     charge.append(c)
-                x, y, c = [], [], []
+                    x, y, c = [], [], []
 
             else:
                 x.append(float(temp[1][:-1]))
                 y.append(float(temp[2][:-1]))
                 c.append(float(temp[3][:-1]))
 
-        xhits.append(x)
-        yhits.append(y)
-        charge.append(c)
+        if len(x) > 0:
+            xhits.append(x)
+            yhits.append(y)
+            charge.append(c)
 
         return xhits, yhits, charge
 
@@ -72,13 +98,80 @@ class DECOLeptonAnalyzer():
 
         return coeff * Z ** 2 / beta ** 2 * (0.5 * ln - beta ** 2 - delta_over_2)
 
-    def bethe_bloch_plot(self):
-        pass
 
-    def track_length_vs_angle_violinplot(self):
-        pass
+
+    def data_processing(self):
+
+        self.check_if_all_simulated()
+
+        data_list = pd.DataFrame(columns=self.col_names)
+
+        counter = 0
+        curr_energy = 0
+        for en in self.energy_levels:
+            for ang in self.theta_angles:
+                x, y, c = self.read_hit_file("./output/{}/{}_theta_{}_phi_{}_thickiness_{}_highstats.txt".format(self.pid, en, float(ang), float(self.phi), self.thichness))
+                try:
+                    for j in range(len(x)):
+                        charge = np.sum(c[j])
+                        length = self.track_length(x[j], y[j])
+                        dE_dX = charge / np.power(length ** 2 + (self.thichness / 0.9) ** 2, 0.5)
+                        data_list.loc[counter] = [en, ang, '30', charge, self.en_float[curr_energy], length, dE_dX]
+                        counter += 1
+                except:
+                    continue
+            curr_energy += 1
+        return data_list
+
+
+    def bethe_bloch_plot(self):
+
+
+        fig, ax = plt.subplots(figsize=(9, 6))
+
+
+        my_cmap = ListedColormap(sns.color_palette("Blues", 50))
+        fig.set_facecolor('white')
+
+        h = plt.hist2d(np.log10(self.data_list['Energy (GeV)']), np.log10(self.data_list['Charge per unit length']),
+                       bins=[np.linspace(-1., 5., 14), np.linspace(1.5, 3.5, 35)], cmin=1., cmap=my_cmap)
+        plt.colorbar(label="Number of Events")
+        plt.title("Muon Losses")
+        #plt.plot(np.log10(E_array), np.log10(muon_BB), c='r', label="Bethe-Bloch", lw=3)
+        plt.ylabel(r'$\log (\frac{dQ}{dx} \times \frac{0.9 \mu m}{q_{e}})$', fontsize=26)
+        plt.xlabel('$\log$( $E_{\mu}$ / MeV) ')
+        plt.xlim(0, 4.2)
+        plt.ylim(1.5, 3.25)
+        plt.show()
+
 
     def check_if_all_simulated(self):
+
+        missing_list = []
+        for en in self.energy_levels:
+            for ang in self.theta_angles:
+
+                curr_file_name = "./output/{}/{}_theta_{}_phi_{}_thickiness_{}_highstats.txt".format(
+                    self.pid, en, float(ang), float(phi), self.thichness)
+
+                if not os.path.exists(curr_file_name):
+                    missing_list.append(curr_file_name)
+
+        if len(missing_list) == 0:
+            print("find all required files:")
+            return
+
+        else:
+            print("missing following files:\n")
+            for i in range(len(missing_list)):
+                print(missing_list[i])
+
+            print("\nmissing files exist, stop analyzing")
+
+            exit()
+            return
+
+    def track_length_vs_angle_violinplot(self):
         pass
 
     def hillas_length_histogram(self):
@@ -88,6 +181,18 @@ class DECOLeptonAnalyzer():
         pass
 
 
-a = DECOLeptonAnalyzer('e+')
+energy_levels = ['10keV', '31.6keV', '100keV', '316keV', '1MeV', '3.16MeV',
+               '10MeV', '31.6MeV', '100MeV', '316MeV', '1GeV', '3.16GeV', '10GeV']
+en_float = np.logspace(-2., 4, 13)
 
-x, y, c = a.read_hit_file('./output/e+/1GeV_theta_70.0_phi_120.0_thickiness_30.0_highstats.txt')
+theta_list = ['0', '15', '30', '45', '60', '75']
+
+phi = 30
+
+thickness = 26.3
+
+a = DECOLeptonAnalyzer('mu+', energy_levels, en_float, theta_list, phi, thickness)
+
+a.bethe_bloch_plot()
+#x, y, c = a.read_hit_file('./output/mu+/100KeV_theta_45.0_phi_30.0_thickiness_26.3_highstats.txt')
+
