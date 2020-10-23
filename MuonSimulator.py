@@ -13,17 +13,24 @@ class DECOMuonSimulator():
         self.energy = energy
         self.theta = theta
         self.phi = kwargs.pop('phi', 0.)
-        self.depletion_thickness = kwargs.pop('depletion_thickness', 26.3e-6)
+        self.depletion_thickness = kwargs.pop('depletion_thickness', 26.3)
         # Set other possible systematics with kwargs, including
         # electric fields, pixel size, etc.
 
-        self.path_to_root = '/Users/Patchouli_goo/Desktop/Icecube/root'
-        self.path_to_geant = '/Users/Patchouli_goo/Desktop/Icecube/GEANT/geant4_10_06_p02-install'
-        self.base_command = '/Users/Patchouli_goo/Desktop/Icecube/allpix/bin/allpix -c ./htc_wildfire/source_measurement.conf -o'
+        self.path_to_root = os.getenv('DECO_ROOT_PATH')
+        self.path_to_geant = os.getenv('DECO_GEANT_PATH')
+        self.path_to_allpix = os.getenv('DECO_ALLPIX_PATH')
+        self.base_command = self.path_to_allpix + ' -c ./htc_wildfire/source_measurement.conf -o'
 
-    def write_conf_file(self):
-        # USE THE PARAMETERS TO REWRITE CONF FILE
-        pass
+    def write_source_file(self, n_events):
+
+        with open('./htc_wildfire/source_measurement_replace.conf', 'r') as f:
+            data = f.readlines()
+        data[3] = data[3].format(n_events)
+        with open('./htc_wildfire/source_measurement.conf', 'w') as wf:
+            wf.writelines(data)
+            wf.close()
+
 
     def write_detector_file(self):
         # USE THE PARAMETERS TO REWRITE DETECTOR FILE
@@ -34,9 +41,18 @@ class DECOMuonSimulator():
             wf.writelines(data)
             wf.close()
 
+        with open('./htc_wildfire/htc_wildfire_shielded_replace.conf', 'r') as f:
+            data = f.readlines()
+        data[4] = data[4].format(self.depletion_thickness)
+        with open('./htc_wildfire/htc_wildfire_shielded.conf', 'w') as wf:
+            wf.writelines(data)
+            wf.close()
+
 
     def set_output_file_name(self):
         # write unique file name depending on parameters
+        if not os.path.exists("./output"):
+            os.system("mkdir ./output")
         if not os.path.exists("./output/" + str(self.pid)):
             os.system("mkdir ./output/" + str(self.pid))
 
@@ -54,20 +70,12 @@ class DECOMuonSimulator():
 
     def run_simulation(self, n_events=100):
 
-        with open('./htc_wildfire/source_measurement_replace.conf', 'r') as f:
-            data = f.readlines()
-        data[3] = data[3].format(n_events)
-        with open('./htc_wildfire/source_measurement.conf', 'w') as wf:
-            wf.writelines(data)
-            wf.close()
-
-
         self.source_local_env()
         # Run the allpix simulation
 
         output_file = self.get_output_file_name()
         self.write_detector_file()
-        self.write_conf_file()
+        self.write_source_file(n_events)
 
         my_command = self.base_command[:]
 
@@ -97,8 +105,8 @@ class DECOMuonSimulator():
         # simulation doesn't work
 
 
-deco = DECOMuonSimulator('e+', '1GeV', 30.0)
-deco.run_simulation(200)
+deco = DECOMuonSimulator('e+', '1GeV', 70.0)
+deco.run_simulation(10)
 
 deco2 = DECOMuonSimulator('e+', '10GeV', 30.0)
 deco2.run_simulation(10)
