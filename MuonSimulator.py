@@ -14,6 +14,7 @@ class DECOMuonSimulator():
         self.theta = theta
         self.phi = kwargs.pop('phi', 0.)
         self.depletion_thickness = kwargs.pop('depletion_thickness', 26.3)
+        #todo: NOTE: in unit of um !!!!!!!
         # Set other possible systematics with kwargs, including
         # electric fields, pixel size, etc.
 
@@ -56,7 +57,7 @@ class DECOMuonSimulator():
         if not os.path.exists("./output/" + str(self.pid)):
             os.system("mkdir ./output/" + str(self.pid))
 
-        self.outfile = str(self.pid) + "/" + "{}_theta_{:.1f}_phi_{:.1f}_highstats.txt".format(self.energy, self.theta, self.phi)
+        self.outfile = str(self.pid) + "/" + "{}_theta_{:.1f}_phi_{:.1f}_thickiness_{:.1f}_highstats.txt".format(self.energy, self.theta, self.phi, self.depletion_thickness)
         pass
 
 
@@ -83,29 +84,37 @@ class DECOMuonSimulator():
         my_command += ' -o DepositionGeant4.source_energy="{}"'.format(self.energy)
         my_command += ' -o TextWriter.file_name="' + output_file + '"'
 
+        """check if simulated using file name"""
+        if self.check_if_simulated(output_file) is True:
+            print("has been simulated")
+            return
+
         subprocess.call(my_command, shell=True)
 
-        pass
+        return
 
 
-    def check_if_simulated(self):
+    def check_if_simulated(self, filename):
         # Check to see if simulation has already been run for
         # this set of parameters
-        pass
+
+        if not os.path.exists("./output/" + filename):
+            return False
+
+        return True
+
 
 
     def source_local_env(self):
         geant = self.path_to_geant + "/bin/geant4.sh"
         root = self.path_to_root + "/bin/thisroot.sh"
 
-        #print(geant, root)
-
         pass
         # Run source scripts for ROOT and GEANT if the
         # simulation doesn't work
 
 
-deco = DECOMuonSimulator('e+', '1GeV', 70.0)
+deco = DECOMuonSimulator('e+', '1GeV', 70.0, phi=120, depletion_thickness=30)
 deco.run_simulation(10)
 
 deco2 = DECOMuonSimulator('e+', '10GeV', 30.0)
