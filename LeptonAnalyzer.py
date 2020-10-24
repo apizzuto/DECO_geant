@@ -171,8 +171,37 @@ class DECOLeptonAnalyzer():
             exit()
             return
 
+
     def track_length_vs_angle_violinplot(self):
-        pass
+        fig, ax = plt.subplots(figsize=(8, 6))
+
+        my_pal = {'100MeV': sns.color_palette('colorblind')[0],
+                  '10GeV': sns.color_palette('colorblind')[2]}
+
+        curr_data = pd.DataFrame(columns=self.col_names)
+
+        index = 0
+        for i in range(self.data_list.__len__()):
+            if self.data_list.loc[i]['Energy'] == '100MeV' or self.data_list.loc[i]['Energy'] == '10GeV':
+                if self.data_list.loc[i]['Track Length (pixels)'] <= 250 and self.data_list.loc[i]['Track Length (pixels)'] > 0:
+                    curr_data.loc[index] = self.data_list.loc[i]
+                    index += 1
+
+        sns.violinplot(x="Theta (degrees)", y="Track Length (pixels)", hue="Energy",
+                       data=curr_data, palette=my_pal, split=True)
+
+        plt.axhline(0., c='r', xmin=0.03, xmax=0.14, lw=3)
+        plt.axhline((26.3 / 0.9) * np.tan(15. * np.pi / 180.), c='r', xmin=0.18, xmax=0.32, lw=3)
+        plt.axhline((26.3 / 0.9) * np.tan(30. * np.pi / 180.), c='r', xmin=0.35, xmax=0.48, lw=3)
+        plt.axhline((26.3 / 0.9) * np.tan(45. * np.pi / 180.), c='r', xmin=0.52, xmax=0.64, lw=3)
+        plt.axhline((26.3 / 0.9) * np.tan(60. * np.pi / 180.), c='r', xmin=0.68, xmax=0.82, lw=3)
+        plt.axhline((26.3 / 0.9) * np.tan(75. * np.pi / 180.), c='r', xmin=0.85, xmax=0.98, lw=3)
+
+        plt.legend(loc=2)
+        #plt.ylim(2, 150.)
+        #plt.yscale('symlog')
+        plt.show()
+
 
     def hillas_length_histogram(self):
         pass
@@ -193,6 +222,7 @@ thickness = 26.3
 
 a = DECOLeptonAnalyzer('mu+', energy_levels, en_float, theta_list, phi, thickness)
 
-a.bethe_bloch_plot()
+a.track_length_vs_angle_violinplot()
+#a.bethe_bloch_plot()
 #x, y, c = a.read_hit_file('./output/mu+/100KeV_theta_45.0_phi_30.0_thickiness_26.3_highstats.txt')
 
