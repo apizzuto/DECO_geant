@@ -11,7 +11,7 @@ class DECOLeptonAnalyzer():
     r'''This class is for making plots like the ones in the
     notebook that read in a bunch of simulated files
     and make analysis level plots'''
-
+    
     def __init__(self, pid, energy_levels, en_float, theta_list, phi, thickness):
         self.pid = pid
 
@@ -122,7 +122,6 @@ class DECOLeptonAnalyzer():
                     continue
             curr_energy += 1
         return data_list
-
 
     def bethe_bloch_plot(self):
 
