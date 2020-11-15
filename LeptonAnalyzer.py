@@ -126,6 +126,16 @@ class DECOLeptonAnalyzer():
 
     def bethe_bloch_plot(self):
 
+        me = .511
+        E_array = np.logspace(-2., 4., 100)
+        muon_BB = []
+
+        for E in E_array:
+            muon_BB.append(self.get_dEdx(206.7 * me, E, 1.))
+
+        muon_BB = np.array(muon_BB)
+        muon_BB = muon_BB * (1. / 3.6) * 0.9 * 1e2  # convert from MeV / cm to electron charge per pixel
+
 
         fig, ax = plt.subplots(figsize=(9, 6))
 
@@ -137,7 +147,7 @@ class DECOLeptonAnalyzer():
                        bins=[np.linspace(-1., 5., 14), np.linspace(1.5, 3.5, 35)], cmin=1., cmap=my_cmap)
         plt.colorbar(label="Number of Events")
         plt.title("Muon Losses")
-        #plt.plot(np.log10(E_array), np.log10(muon_BB), c='r', label="Bethe-Bloch", lw=3)
+        plt.plot(np.log10(E_array), np.log10(muon_BB), c='r', label="Bethe-Bloch", lw=3)
         plt.ylabel(r'$\log (\frac{dQ}{dx} \times \frac{0.9 \mu m}{q_{e}})$', fontsize=26)
         plt.xlabel('$\log$( $E_{\mu}$ / MeV) ')
         plt.xlim(0, 4.2)
@@ -183,7 +193,7 @@ class DECOLeptonAnalyzer():
         index = 0
         for i in range(self.data_list.__len__()):
             if self.data_list.loc[i]['Energy'] == '100MeV' or self.data_list.loc[i]['Energy'] == '10GeV':
-                if self.data_list.loc[i]['Track Length (pixels)'] <= 250 and self.data_list.loc[i]['Track Length (pixels)'] > 0:
+                if self.data_list.loc[i]['Track Length (pixels)'] <= 250:
                     curr_data.loc[index] = self.data_list.loc[i]
                     index += 1
 
@@ -222,7 +232,7 @@ thickness = 26.3
 
 a = DECOLeptonAnalyzer('mu+', energy_levels, en_float, theta_list, phi, thickness)
 
-a.track_length_vs_angle_violinplot()
-#a.bethe_bloch_plot()
+#a.track_length_vs_angle_violinplot()
+a.bethe_bloch_plot()
 #x, y, c = a.read_hit_file('./output/mu+/100KeV_theta_45.0_phi_30.0_thickiness_26.3_highstats.txt')
 
