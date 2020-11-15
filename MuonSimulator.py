@@ -123,7 +123,7 @@ angles = ['0', '15', '30', '45', '60', '75']
 
 for e in energy:
     for ang in angles:
-        a = DECOMuonSimulator('mu+', e, ang, phi='30', depletion_thickness='26.3')
+        a = DECOMuonSimulator('e+', e, ang, phi='30', depletion_thickness='26.3')
 
         a.run_simulation(100)
 
