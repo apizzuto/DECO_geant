@@ -121,10 +121,17 @@ energy = ['10keV', '31.6keV', '100keV', '316keV', '1MeV', '3.16MeV',
 
 angles = ['0', '15', '30', '45', '60', '75']
 
-for e in energy:
-    for ang in angles:
-        a = DECOMuonSimulator('e+', e, ang, phi='30', depletion_thickness='26.3')
+phis = ['0', '15', '30', '45', '60', '75', '90']
 
-        a.run_simulation(100)
+#energy = ['1GeV']
+#angles = ['45']
+#phis = ['0']
+
+for ene in energy:
+    for ang in angles:
+        for azi in phis:
+            a = DECOMuonSimulator('mu+', ene, ang, phi=azi, depletion_thickness='26.3')
+
+            a.run_simulation(100)
 
 

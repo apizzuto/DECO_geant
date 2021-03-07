@@ -5,14 +5,14 @@ from matplotlib.colors import ListedColormap
 import seaborn as sns
 import os
 plt.style.use("IceCube")
-
+import matplotlib as mpl
 
 class DECOLeptonAnalyzer():
     r'''This class is for making plots like the ones in the
     notebook that read in a bunch of simulated files
     and make analysis level plots'''
 
-    def __init__(self, pid, energy_levels, en_float, theta_list, phi, thickness):
+    def __init__(self, pid, energy_levels, en_float, theta_list, phi_list, thickness):
         self.pid = pid
 
         self.thichness = thickness
@@ -24,9 +24,9 @@ class DECOLeptonAnalyzer():
 
         self.en_float = en_float
 
-        self.theta_angles = theta_list
+        self.theta_list = theta_list
 
-        self.phi = phi
+        self.phi_list = phi_list
 
         self.data_list = self.data_processing()
 
@@ -109,20 +109,67 @@ class DECOLeptonAnalyzer():
         counter = 0
         curr_energy = 0
         for en in self.energy_levels:
-            for ang in self.theta_angles:
-                x, y, c = self.read_hit_file("./output/{}/{}_theta_{}_phi_{}_thickiness_{}_highstats.txt".format(self.pid, en, float(ang), float(self.phi), self.thichness))
-                try:
-                    for j in range(len(x)):
-                        charge = np.sum(c[j])
-                        length = self.track_length(x[j], y[j])
-                        dE_dX = charge / np.power(length ** 2 + (self.thichness / 0.9) ** 2, 0.5)
-                        data_list.loc[counter] = [en, ang, '30', charge, self.en_float[curr_energy], length, dE_dX]
-                        counter += 1
-                except:
-                    continue
+            for theta in self.theta_list:
+                for phi in self.phi_list:
+                    x, y, c = self.read_hit_file("./output/{}/{}_theta_{}_phi_{}_thickiness_{}_highstats.txt".format(self.pid, en, float(theta), float(phi), self.thichness))
+                    try:
+                        for j in range(len(x)):
+                            charge = np.sum(c[j])
+                            length = self.track_length(x[j], y[j])
+                            dE_dX = charge / np.power(length ** 2 + (self.thichness / 0.9) ** 2, 0.5)
+                            data_list.loc[counter] = [en, theta, phi, charge, self.en_float[curr_energy], length, dE_dX]
+                            counter += 1
+                    except:
+                        continue
             curr_energy += 1
         return data_list
 
+
+    def plot_single(self, en, theta, phi):
+        x, y, c = self.read_hit_file(
+            "./output/{}/{}_theta_{}_phi_{}_thickiness_{}_highstats.txt".format(self.pid, en, float(theta),
+                                                                                float(phi), self.thichness))
+
+        for j in range(50):
+            # try:
+            image = np.zeros((4500, 4500))
+            for i in range(len(x[j])):
+                image[int(y[j][i]), int(x[j][i])] = c[j][i]
+
+
+            med_x = np.median(x[j])
+            med_y = np.median(y[j])
+            size = 50.
+
+            title = "1 GeV $\mu^{+}$"
+            fig1 = plt.figure(1, figsize=(8, 8))
+            ax = fig1.add_subplot(111)
+            fig1.set_facecolor('white')
+
+            # my_cmap = ListedColormap(sns.color_palette("Blues", 50))
+            # my_cmap = ListedColormap(sns.palplot(sns.cubehelix_palette(8, start=2, rot=0, dark=0, light=.95, reverse=True)))
+            my_cmap = mpl.cm.hot
+
+            # image = np.where(image == 0.0, np.nan, image)
+
+            im = ax.imshow(image, cmap=my_cmap,  # interpolation="gaussian",
+                           aspect="auto", vmax=100., vmin=0.0)
+            ax.set_xlim([med_x - size, med_x + size])
+            ax.set_ylim([med_y - size, med_y + size])
+            ax.set_xlabel("X (pixels)")
+            ax.set_ylabel("Y (pixels)")
+            ax.set_title(title)
+
+            ax.grid(color="#ffffff")
+            cb = fig1.colorbar(im, orientation="vertical",
+                               shrink=0.8,
+                               fraction=0.05,
+                               pad=0.15)
+            label = "Pixel Luminance"
+            cb.set_label(label)
+            ax.text(med_x + size * 0.3, med_y + size * 0.7,
+                    "Simulation", fontsize=24, color='w', weight='heavy')
+            plt.show()
 
     def bethe_bloch_plot(self):
 
@@ -134,6 +181,8 @@ class DECOLeptonAnalyzer():
             muon_BB.append(self.get_dEdx(206.7 * me, E, 1.))
 
         muon_BB = np.array(muon_BB)
+
+        #todo: may change this /2 if propagating holes is possible
         muon_BB = muon_BB * (1. / 3.6) * 0.9 * 1e2  # convert from MeV / cm to electron charge per pixel
 
 
@@ -159,13 +208,14 @@ class DECOLeptonAnalyzer():
 
         missing_list = []
         for en in self.energy_levels:
-            for ang in self.theta_angles:
+            for theta in self.theta_list:
+                for phi in self.phi_list:
 
-                curr_file_name = "./output/{}/{}_theta_{}_phi_{}_thickiness_{}_highstats.txt".format(
-                    self.pid, en, float(ang), float(phi), self.thichness)
+                    curr_file_name = "./output/{}/{}_theta_{}_phi_{}_thickiness_{}_highstats.txt".format(
+                        self.pid, en, float(theta), float(phi), self.thichness)
 
-                if not os.path.exists(curr_file_name):
-                    missing_list.append(curr_file_name)
+                    if not os.path.exists(curr_file_name):
+                        missing_list.append(curr_file_name)
 
         if len(missing_list) == 0:
             print("find all required files:")
@@ -226,13 +276,15 @@ en_float = np.logspace(-2., 4, 13)
 
 theta_list = ['0', '15', '30', '45', '60', '75']
 
-phi = 30
+phi_list = ['0', '15', '30', '45', '60', '75', '90']
 
 thickness = 26.3
 
-a = DECOLeptonAnalyzer('mu+', energy_levels, en_float, theta_list, phi, thickness)
+a = DECOLeptonAnalyzer('mu+', energy_levels, en_float, theta_list, phi_list, thickness)
 
 #a.track_length_vs_angle_violinplot()
 a.bethe_bloch_plot()
+
+#a.plot_single('1GeV', '75')
 #x, y, c = a.read_hit_file('./output/mu+/100KeV_theta_45.0_phi_30.0_thickiness_26.3_highstats.txt')
 
