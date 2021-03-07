@@ -183,7 +183,7 @@ class DECOLeptonAnalyzer():
         muon_BB = np.array(muon_BB)
 
         #todo: may change this /2 if propagating holes is possible
-        muon_BB = muon_BB * (1. / 3.6) * 0.9 * 1e2  # convert from MeV / cm to electron charge per pixel
+        muon_BB = muon_BB / 2 * (1. / 3.6) * 0.9 * 1e2  # convert from MeV / cm to electron charge per pixel
 
 
         fig, ax = plt.subplots(figsize=(9, 6))
