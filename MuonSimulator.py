@@ -3,13 +3,15 @@ r'''Class that handles various inputs and systematic parameters
 import os, sys
 import subprocess
 from pipes import quote
+from math import *
 
 class DECOMuonSimulator():
     r'''Simulator class for muons that uses allpix
     and GEANT'''
 
-    def __init__(self, pid, energy, theta, **kwargs):
+    def __init__(self, pid, energy, pos, theta, **kwargs):
         self.pid = pid #Particle id, ie mu+, e-
+        self.pos = pos
         self.energy = energy
         self.theta = float(theta)
         self.phi = float(kwargs.pop('phi', 0.))
@@ -23,16 +25,33 @@ class DECOMuonSimulator():
         self.path_to_allpix = os.getenv('DECO_ALLPIX_PATH')
         self.base_command = self.path_to_allpix + ' -c ./htc_wildfire/source_measurement.conf -o'
 
-    def write_source_file(self, n_events):
+    def write_source_file(self, n_events, want_plot):
 
         with open('./htc_wildfire/source_measurement_replace.conf', 'r') as f:
             data = f.readlines()
         data[3] = data[3].format(n_events)
+
+        data[18] = data[18].format(str(self.pos[0]) + " " + str(self.pos[1]) + " " + str(self.pos[2]) + "um")
+
+        theta = pi - self.theta
+        phi = self.phi
+        dirx = 1*sin(theta)*cos(phi)
+        diry = 1*sin(theta)*sin(phi)
+        dirz = 1*cos(theta)
+
+        data[20] = data[20].format(str(dirx) + " " + str(diry) + " " + str(dirz))
+
+        if want_charge_plot == 'true':
+            data[38] = data[38].format('true' + "\n" + "output_linegraphs = true \n output_plots_step = 100ps \n output_plots_align_pixels = true \n output_plots_use_pixel_units = true")
+        else:
+            data[38] = data[38].format("false")
+
+
         with open('./htc_wildfire/source_measurement.conf', 'w') as wf:
             wf.writelines(data)
             wf.close()
 
-
+    """
     def write_detector_file(self):
         # USE THE PARAMETERS TO REWRITE DETECTOR FILE
         with open('./htc_wildfire/detector_replace.conf', 'r') as f:
@@ -48,7 +67,7 @@ class DECOMuonSimulator():
         with open('./htc_wildfire/htc_wildfire_shielded.conf', 'w') as wf:
             wf.writelines(data)
             wf.close()
-
+    """
 
     def set_output_file_name(self):
         # write unique file name depending on parameters
@@ -69,14 +88,13 @@ class DECOMuonSimulator():
             return self.outfile
 
 
-    def run_simulation(self, n_events=100):
+    def run_simulation(self, n_events, want_charge_plot='false'):
 
         self.source_local_env()
         # Run the allpix simulation
 
         output_file = self.get_output_file_name()
-        self.write_detector_file()
-        self.write_source_file(n_events)
+        self.write_source_file(n_events, want_charge_plot)
 
         my_command = self.base_command[:]
 
@@ -114,24 +132,26 @@ class DECOMuonSimulator():
         # simulation doesn't work
 
 
+dep_thickness = 26.3 #um
+pos = [0, 0, dep_thickness/2]
 
-
-energy = ['10keV', '31.6keV', '100keV', '316keV', '1MeV', '3.16MeV',
-       '10MeV', '31.6MeV', '100MeV', '316MeV', '1GeV', '3.16GeV', '10GeV']
+energy = ['10keV', '31.6keV', '100keV', '316keV', '1MeV', '3.16MeV', '10MeV', '31.6MeV', '100MeV', '316MeV', '1GeV', '3.16GeV', '10GeV']
 
 angles = ['0', '15', '30', '45', '60', '75']
 
-phis = ['0', '15', '30', '45', '60', '75', '90']
+#phis = ['0', '15', '30', '45', '60', '75', '90']
 
-#energy = ['1GeV']
+#energy = ['100keV']
 #angles = ['45']
-#phis = ['0']
+phis = ['0']
+
+want_charge_plot = "false"
 
 for ene in energy:
     for ang in angles:
         for azi in phis:
-            a = DECOMuonSimulator('mu+', ene, ang, phi=azi, depletion_thickness='26.3')
+            a = DECOMuonSimulator('mu+', ene, pos, ang, phi=azi, depletion_thickness=str(dep_thickness))
 
-            a.run_simulation(100)
+            a.run_simulation(100, want_charge_plot)
 
 

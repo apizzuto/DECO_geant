@@ -72,6 +72,8 @@ class DECOLeptonAnalyzer():
 
         for j in range(len(x)):
 
+                print("total charge deposited is " + str(np.array(c[j]).sum()))
+
                 image = np.zeros((4500, 4500))
                 for i in range(len(x[j])):
                     image[int(y[j][i]), int(x[j][i])] = c[j][i]
@@ -117,8 +119,8 @@ phi = 0
 
 thickness = 26.3
 
-a = DECOLeptonAnalyzer('mu+', phi, thickness)
+a = DECOLeptonAnalyzer('e-', phi, thickness)
 
 
-a.plot_single('1GeV', '45')
+a.plot_single('10keV', '45')
 
