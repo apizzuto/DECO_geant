@@ -13,8 +13,8 @@ class DECOMuonSimulator():
         self.pid = pid #Particle id, ie mu+, e-
         self.pos = pos
         self.energy = energy
-        self.theta = float(theta)
-        self.phi = float(kwargs.pop('phi', 0.))
+        self.theta = radians(float(theta))
+        self.phi = radians(float(kwargs.pop('phi', 0.)))
         self.depletion_thickness = float(kwargs.pop('depletion_thickness', 26.3))
         #todo: NOTE: in unit of um !!!!!!!
         # Set other possible systematics with kwargs, including
@@ -41,7 +41,7 @@ class DECOMuonSimulator():
 
         data[20] = data[20].format(str(dirx) + " " + str(diry) + " " + str(dirz))
 
-        if want_charge_plot == 'true':
+        if want_plot == 'true':
             data[38] = data[38].format('true' + "\n" + "output_linegraphs = true \n output_plots_step = 100ps \n output_plots_align_pixels = true \n output_plots_use_pixel_units = true")
         else:
             data[38] = data[38].format("false")
@@ -135,23 +135,25 @@ class DECOMuonSimulator():
 dep_thickness = 26.3 #um
 pos = [0, 0, dep_thickness/2]
 
-energy = ['10keV', '31.6keV', '100keV', '316keV', '1MeV', '3.16MeV', '10MeV', '31.6MeV', '100MeV', '316MeV', '1GeV', '3.16GeV', '10GeV']
+#energy = ['10keV', '31.6keV', '100keV', '316keV', '1MeV', '3.16MeV', '10MeV', '31.6MeV', '100MeV', '316MeV', '1GeV', '3.16GeV', '10GeV']
 
-angles = ['0', '15', '30', '45', '60', '75']
+#angles = ['0', '15', '30', '45', '60', '75']
 
 #phis = ['0', '15', '30', '45', '60', '75', '90']
 
-#energy = ['100keV']
-#angles = ['45']
+energy = ['10MeV']
+angles = ['70']
 phis = ['0']
+particle_type = 'e+'
 
-want_charge_plot = "false"
+
+want_charge_plot = "true"
 
 for ene in energy:
     for ang in angles:
         for azi in phis:
-            a = DECOMuonSimulator('mu+', ene, pos, ang, phi=azi, depletion_thickness=str(dep_thickness))
+            a = DECOMuonSimulator(particle_type, ene, pos, ang, phi=azi, depletion_thickness=str(dep_thickness))
 
-            a.run_simulation(100, want_charge_plot)
+            a.run_simulation(10, want_charge_plot)
 
 
