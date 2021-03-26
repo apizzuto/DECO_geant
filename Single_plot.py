@@ -119,8 +119,8 @@ phi = 0
 
 thickness = 26.3
 
-a = DECOLeptonAnalyzer('e-', phi, thickness)
+a = DECOLeptonAnalyzer('gamma', phi, thickness)
 
 
-a.plot_single('10keV', '45')
+a.plot_single('1GeV', '45')
 

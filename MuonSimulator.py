@@ -13,8 +13,8 @@ class DECOMuonSimulator():
         self.pid = pid #Particle id, ie mu+, e-
         self.pos = pos
         self.energy = energy
-        self.theta = radians(float(theta))
-        self.phi = radians(float(kwargs.pop('phi', 0.)))
+        self.theta = float(theta)
+        self.phi = float(kwargs.pop('phi', 0.))
         self.depletion_thickness = float(kwargs.pop('depletion_thickness', 26.3))
         #todo: NOTE: in unit of um !!!!!!!
         # Set other possible systematics with kwargs, including
@@ -33,8 +33,8 @@ class DECOMuonSimulator():
 
         data[18] = data[18].format(str(self.pos[0]) + " " + str(self.pos[1]) + " " + str(self.pos[2]) + "um")
 
-        theta = pi - self.theta
-        phi = self.phi
+        theta = pi - radians(self.theta)
+        phi = radians(self.phi)
         dirx = 1*sin(theta)*cos(phi)
         diry = 1*sin(theta)*sin(phi)
         dirz = 1*cos(theta)
@@ -141,19 +141,19 @@ pos = [0, 0, dep_thickness/2]
 
 #phis = ['0', '15', '30', '45', '60', '75', '90']
 
-energy = ['10MeV']
-angles = ['70']
+energy = ['10GeV']
+angles = ['45']
 phis = ['0']
-particle_type = 'e+'
+particle_type = 'gamma'
 
 
-want_charge_plot = "true"
+want_charge_plot = "false"
 
 for ene in energy:
     for ang in angles:
         for azi in phis:
             a = DECOMuonSimulator(particle_type, ene, pos, ang, phi=azi, depletion_thickness=str(dep_thickness))
 
-            a.run_simulation(10, want_charge_plot)
+            a.run_simulation(10000, want_charge_plot)
 
 
