@@ -77,12 +77,12 @@ class DECOLeptonAnalyzer():
     return the distance by L2 norm of (x_max_diff, y_max_diff)
     """
     def track_length(self, x, y):
-        x_dist_sq = np.power(np.max(x) - np.min(x), 2.)
-        y_dist_sq = np.power(np.max(y) - np.min(y), 2.)
+        x_dist_sq = np.power((np.max(x) - np.min(x)) * 0.9, 2.)
+        y_dist_sq = np.power((np.max(y) - np.min(y)) * 0.9, 2.)
         return np.power(x_dist_sq + y_dist_sq, 0.5)
 
     """
-    
+    dE/dx in unit of MeV/cm
     """
     def get_dEdx(self, M, E, Z):
         coeff = 2.32 * 14. / 28.0855 * 0.307
@@ -116,8 +116,8 @@ class DECOLeptonAnalyzer():
                         for j in range(len(x)):
                             charge = np.sum(c[j])
                             length = self.track_length(x[j], y[j])
-                            dE_dX = charge / np.power(length ** 2 + (self.thichness / 0.9) ** 2, 0.5)
-                            data_list.loc[counter] = [en, theta, phi, charge, self.en_float[curr_energy], length, dE_dX]
+                            dQ_dX = charge / np.power(length ** 2 + self.thichness ** 2, 0.5)
+                            data_list.loc[counter] = [en, theta, phi, charge, self.en_float[curr_energy], length, dQ_dX]
                             counter += 1
                     except:
                         continue
@@ -175,15 +175,21 @@ class DECOLeptonAnalyzer():
 
         me = .511
         E_array = np.logspace(-2., 4., 100)
-        muon_BB = []
+        BB = []
 
         for E in E_array:
-            muon_BB.append(self.get_dEdx(206.7 * me, E, 1.))
 
-        muon_BB = np.array(muon_BB)
+            if self.pid == 'mu+' or self.pid == 'mu-':
+                BB.append(self.get_dEdx(206.7 * me, E, 1.))
+            elif self.pid == 'e+' or self.pid == 'e-':
+                BB.append(self.get_dEdx(me, E, 1.))
 
-        #todo: may change this /2 if propagating holes is possible
-        muon_BB = muon_BB / 2 * (1. / 3.6) * 0.9 * 1e2  # convert from MeV / cm to electron charge per pixel
+
+
+        BB = np.array(BB)
+
+        #todo: may change this /2 if counting hole charge is possible
+        BB = BB * 1e6 / 2 * (1. / 3.62) * 1e-4  # convert from MeV / cm to electron charge per um
 
 
         fig, ax = plt.subplots(figsize=(9, 6))
@@ -195,12 +201,12 @@ class DECOLeptonAnalyzer():
         h = plt.hist2d(np.log10(self.data_list['Energy (GeV)']), np.log10(self.data_list['Charge per unit length']),
                        bins=[np.linspace(-1., 5., 14), np.linspace(1.5, 3.5, 35)], cmin=1., cmap=my_cmap)
         plt.colorbar(label="Number of Events")
-        plt.title("Muon Losses")
-        plt.plot(np.log10(E_array), np.log10(muon_BB), c='r', label="Bethe-Bloch", lw=3)
+        plt.title(str(self.pid) + " Losses")
+        plt.plot(np.log10(E_array), np.log10(BB), c='r', label="Bethe-Bloch", lw=3)
         plt.ylabel(r'$\log (\frac{dQ}{dx} \times \frac{0.9 \mu m}{q_{e}})$', fontsize=26)
-        plt.xlabel('$\log$( $E_{\mu}$ / MeV) ')
-        plt.xlim(0, 4.2)
-        plt.ylim(1.5, 3.25)
+        plt.xlabel('$\log$( $E_{' + str(self.pid) + '}$ / MeV) ')
+        #plt.xlim(-2, 4.2)
+        #plt.ylim(1.5, 3.25)
         plt.show()
 
 
@@ -282,7 +288,7 @@ phi_list = ['0']
 
 thickness = 26.3
 
-a = DECOLeptonAnalyzer('mu+', energy_levels, en_float, theta_list, phi_list, thickness)
+a = DECOLeptonAnalyzer('e-', energy_levels, en_float, theta_list, phi_list, thickness)
 
 #a.track_length_vs_angle_violinplot()
 a.bethe_bloch_plot()

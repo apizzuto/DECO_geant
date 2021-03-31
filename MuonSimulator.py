@@ -135,16 +135,16 @@ class DECOMuonSimulator():
 dep_thickness = 26.3 #um
 pos = [0, 0, dep_thickness/2]
 
-#energy = ['10keV', '31.6keV', '100keV', '316keV', '1MeV', '3.16MeV', '10MeV', '31.6MeV', '100MeV', '316MeV', '1GeV', '3.16GeV', '10GeV']
+energy = ['10keV', '31.6keV', '100keV', '316keV', '1MeV', '3.16MeV', '10MeV', '31.6MeV', '100MeV', '316MeV', '1GeV', '3.16GeV', '10GeV']
 
-#angles = ['0', '15', '30', '45', '60', '75']
+angles = ['0', '15', '30', '45', '60', '75']
 
 #phis = ['0', '15', '30', '45', '60', '75', '90']
 
-energy = ['10GeV']
-angles = ['45']
+#energy = ['10GeV']
+#angles = ['45']
 phis = ['0']
-particle_type = 'gamma'
+particle_type = 'e-'
 
 
 want_charge_plot = "false"
@@ -154,6 +154,6 @@ for ene in energy:
         for azi in phis:
             a = DECOMuonSimulator(particle_type, ene, pos, ang, phi=azi, depletion_thickness=str(dep_thickness))
 
-            a.run_simulation(10000, want_charge_plot)
+            a.run_simulation(100, want_charge_plot)
 
 
