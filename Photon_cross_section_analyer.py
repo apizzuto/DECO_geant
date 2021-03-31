@@ -111,7 +111,7 @@ particle_type = 'gamma'
 
 thickness = 26.3
 
-a = DECOLeptonAnalyzer('gamma', phi, thickness)
+a = DECOLeptonAnalyzer(particle_type, phi, thickness)
 
 a.plot_cross_section(energy, energy_list, theta)
 
