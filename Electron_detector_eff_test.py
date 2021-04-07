@@ -4,6 +4,7 @@ import os, sys
 import subprocess
 from pipes import quote
 from math import *
+import numpy as np
 
 class DECOMuonSimulator():
     r'''Simulator class for muons that uses allpix
@@ -76,7 +77,7 @@ class DECOMuonSimulator():
         if not os.path.exists("./output/" + str(self.pid)):
             os.system("mkdir ./output/" + str(self.pid))
 
-        self.outfile = str(self.pid) + "/" + "{}_theta_{:.1f}_phi_{:.1f}_thickiness_{:.1f}_highstats.txt".format(self.energy, self.theta, self.phi, self.depletion_thickness)
+        self.outfile = str(self.pid) + "/" + "{}_posz_{}_theta_{:.1f}_phi_{:.1f}_thickiness_{:.1f}_highstats.txt".format(round(self.pos[2], 3), self.energy, self.theta, self.phi, self.depletion_thickness)
         pass
 
 
@@ -133,16 +134,19 @@ class DECOMuonSimulator():
 
 
 dep_thickness = 26.3 #um
-pos = [0, 0, dep_thickness/2]
+pos_list = []
 
-energy = ['10keV', '31.6keV', '100keV', '316keV', '1MeV', '3.16MeV', '10MeV', '31.6MeV', '100MeV', '316MeV', '1GeV', '3.16GeV', '10GeV']
+z_pos = np.linspace(-1 * dep_thickness/2, dep_thickness/2, 100)
 
-angles = ['0', '15', '30', '45', '60', '75']
+for i in range(len(z_pos)):
+    pos_list.append([0, 0, z_pos[i]])
+
+#angles = ['0', '15', '30', '45', '60', '75']
 
 #phis = ['0', '15', '30', '45', '60', '75', '90']
 
-#energy = ['10GeV']
-#angles = ['45']
+energy = ['10keV']
+angles = ['90']
 phis = ['0']
 particle_type = 'e-'
 
@@ -152,8 +156,9 @@ want_charge_plot = "false"
 for ene in energy:
     for ang in angles:
         for azi in phis:
-            a = DECOMuonSimulator(particle_type, ene, pos, ang, phi=azi, depletion_thickness=str(dep_thickness))
+            for pos in pos_list:
+                a = DECOMuonSimulator(particle_type, ene, pos, ang, phi=azi, depletion_thickness=str(dep_thickness))
 
-            a.run_simulation(100, want_charge_plot)
+                a.run_simulation(100, want_charge_plot)
 
 

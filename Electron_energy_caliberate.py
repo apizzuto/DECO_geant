@@ -4,6 +4,7 @@ import os, sys
 import subprocess
 from pipes import quote
 from math import *
+import numpy as np
 
 class DECOMuonSimulator():
     r'''Simulator class for muons that uses allpix
@@ -133,27 +134,33 @@ class DECOMuonSimulator():
 
 
 dep_thickness = 26.3 #um
-pos = [0, 0, dep_thickness/2]
+pos = [0, 0, 0]
 
-energy = ['10keV', '31.6keV', '100keV', '316keV', '1MeV', '3.16MeV', '10MeV', '31.6MeV', '100MeV', '316MeV', '1GeV', '3.16GeV', '10GeV']
+energy = np.logspace(4, 5, 10)
 
-angles = ['0', '15', '30', '45', '60', '75']
+energy_list = []
+
+for ene in energy:
+    energy_list.append(str(round(ene/pow(10, 6), 3))+"MeV")
+
+
+#angles = ['0', '15', '30', '45', '60', '75']
 
 #phis = ['0', '15', '30', '45', '60', '75', '90']
 
 #energy = ['10GeV']
-#angles = ['45']
+angles = ['45']
 phis = ['0']
 particle_type = 'e-'
 
 
 want_charge_plot = "false"
 
-for ene in energy:
+for ene in energy_list:
     for ang in angles:
         for azi in phis:
             a = DECOMuonSimulator(particle_type, ene, pos, ang, phi=azi, depletion_thickness=str(dep_thickness))
 
-            a.run_simulation(100, want_charge_plot)
+            a.run_simulation(1000, want_charge_plot)
 
 
