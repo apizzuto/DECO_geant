@@ -84,13 +84,16 @@ class DECOLeptonAnalyzer():
     """
     dE/dx in unit of MeV/cm
     """
-    def get_dEdx(self, M, E, Z):
+    def get_dEdx(self, M, E, Z, type):
         coeff = 2.32 * 14. / 28.0855 * 0.307
         meev = .511
         gamma = E / M + 1
         beta = np.sqrt(1 - (1 / gamma ** 2))
         beta2gamma2 = (beta * gamma) ** 2
-        Tmax = (2 * meev * beta2gamma2) / (1 + 2 * gamma * meev / M + (meev / M) ** 2)
+        if type != 'e+' and type != 'e-':
+            Tmax = (2 * meev * beta2gamma2) / (1 + 2 * gamma * meev / M + (meev / M) ** 2)
+        else:
+            Tmax = E + M
         I = 10 * 14.0e-6
         hw = np.sqrt(2.32 * 14 / 28.0855) * 28.816e-6
         ln = np.log((2 * meev * beta2gamma2 * Tmax) / I ** 2)
@@ -180,9 +183,9 @@ class DECOLeptonAnalyzer():
         for E in E_array:
 
             if self.pid == 'mu+' or self.pid == 'mu-':
-                BB.append(self.get_dEdx(206.7 * me, E, 1.))
+                BB.append(self.get_dEdx(206.7 * me, E, 1., self.pid))
             elif self.pid == 'e+' or self.pid == 'e-':
-                BB.append(self.get_dEdx(me, E, 1.))
+                BB.append(self.get_dEdx(me, E, 1., self.pid))
 
 
 
