@@ -65,14 +65,12 @@ class DECOLeptonAnalyzer():
 
 
 
-    def plot_single(self, en, ang):
+    def plot_single(self, en, numerica_e, ang, num_to_do):
         x, y, c = self.read_hit_file(
             "./output/{}/{}_theta_{}_phi_{}_thickiness_{}_highstats.txt".format(self.pid, en, float(ang),
                                                                                 float(self.phi), self.thichness))
 
-        for j in range(len(x)):
-
-                print("total charge deposited is " + str(np.array(c[j]).sum()))
+        for j in range(len(x))[:num_to_do]:
 
                 image = np.zeros((4500, 4500))
                 for i in range(len(x[j])):
@@ -83,7 +81,6 @@ class DECOLeptonAnalyzer():
                 med_y = np.median(y[j])
                 size = 50.
 
-                title = str(self.pid) + " with energy " + str(en)
                 fig1 = plt.figure(1, figsize=(8, 8))
                 ax = fig1.add_subplot(111)
                 fig1.set_facecolor('white')
@@ -100,7 +97,6 @@ class DECOLeptonAnalyzer():
                 ax.set_ylim([med_y - size, med_y + size])
                 ax.set_xlabel("X (pixels)")
                 ax.set_ylabel("Y (pixels)")
-                ax.set_title(title)
 
                 ax.grid(color="#ffffff")
                 cb = fig1.colorbar(im, orientation="vertical",
@@ -111,16 +107,50 @@ class DECOLeptonAnalyzer():
                 cb.set_label(label)
                 ax.text(med_x + size * 0.3, med_y + size * 0.7,
                         "Simulation", fontsize=24, color='w', weight='heavy')
-                plt.show()
+
+                if not os.path.exists("./2Dimages"):
+                    os.mkdir("./2Dimages")
+                if not os.path.exists("./2Dimages/" + str(particle_type)):
+                    os.mkdir("./2Dimages/" + str(particle_type))
+                if not os.path.exists("./2Dimages/" + str(particle_type) + "/" + str(round(numerica_e/pow(10, 6), 4)) + "MeV"):
+                    os.mkdir("./2Dimages/" + str(particle_type) + "/" + str(round(numerica_e/pow(10, 6), 4)) + "MeV")
+
+                title = str(self.pid) + " initial energy is " + str(round(numerica_e/pow(10, 6), 4)) + "MeV\ntotal charge deposited is "\
+                        + str(round(np.array(c[j]).sum(), 3)) + "\ntotal deposited energy is: "\
+                        + str(round(np.array(c[j]).sum() * 3.62/pow(10, 6), 3)) + "MeV"
+
+                ax.set_title(title)
+
+                plt.savefig("./2Dimages/" + str(self.pid) + "/" + str(round(numerica_e/pow(10, 6), 4)) + "MeV/" + str(j) + ".png", bbox_inches='tight')
+
+                plt.close()
 
 
 
-phi = 0
+
+energy = np.logspace(4, 10, 100)
+
+energy_list = []
+
+for ene in energy:
+    energy_list.append(str(ene/pow(10, 6))+"MeV")
+
+theta = '45'
+phi = '0'
+particle_type = 'e-'
 
 thickness = 26.3
 
-a = DECOLeptonAnalyzer('gamma', phi, thickness)
+a = DECOLeptonAnalyzer(particle_type, phi, thickness)
 
+E_calibrate_list = []
+err_list = []
+E_exp_list = []
 
-a.plot_single('1GeV', '45')
+for i in range(len(energy)):
+
+    print("working on " + str(round(energy[i]/pow(10, 6), 4)) + "MeV")
+
+    a.plot_single(energy_list[i], energy[i], theta, 20)
+
 
