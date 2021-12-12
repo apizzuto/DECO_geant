@@ -1,1 +1,1 @@
-This repository is for the simulation of cell phone camera image sensors and relies on the installation of both Allpix-Squared and GEANT4.
+This repository is for the simulation of cell phone camera image sensors and relies on the installation of both Allpix-Squared and GEANT4. A CNN is used to do event classification after simulation and some post image processings.
