@@ -62,31 +62,7 @@ def clean_img(filename):
     return image
 
 
-"""
-threshold = 10
-
-
-if not os.path.exists("./real_clean_image_thres" + str(threshold)):
-    os.mkdir("./real_clean_image_thres" + str(threshold))
-
-model = 'Dalvik_1.4.0_(Linux;_U;_Android_2.3.4;_HTC_A510c_Build_GRJ22)'
-file_dir = "../CNN_on_training_data/track_by_device_full/" + str(model) + "/track/"
-
-for filename in os.listdir(file_dir):
-
-    print(filename)
-
-    clean_image = clean_img(file_dir + filename)
-
-    f = open("./real_clean_image_thres" + str(threshold) + "/" + filename, 'w')
-
-    for i in range(len(clean_image)):
-        for j in range(len(clean_image[i])):
-            f.write(str(int(clean_image[i][j])) + " ")
-
-        f.write("\n")
-"""
-
+# threshold of image cleaning
 threshold = 10
 
 
@@ -111,34 +87,3 @@ for filename in os.listdir(file_dir):
 
 
 
-"""
-
-folder_dir = "qdc_res_0_smear_0_slope_3"
-source_dir = "e-_2Dimages_fac2"
-file_dir = "../MC_with_CNN/classification/" + str(folder_dir) + "/" + str(source_dir) + "/track/"
-
-
-if not os.path.exists("./sim_clean_image_thres" + str(threshold)):
-    os.mkdir("./sim_clean_image_thres" + str(threshold))
-
-if not os.path.exists("./sim_clean_image_thres" + str(threshold) + "/" + folder_dir):
-    os.mkdir("./sim_clean_image_thres" + str(threshold) + "/" + folder_dir)
-
-if not os.path.exists("./sim_clean_image_thres" + str(threshold) + "/" + folder_dir + "/" + source_dir):
-    os.mkdir("./sim_clean_image_thres" + str(threshold) + "/" + folder_dir + "/" + source_dir)
-
-
-for filename in os.listdir(file_dir):
-
-    print(filename)
-
-    clean_image = clean_img(file_dir + filename)
-
-    f = open("./sim_clean_image_thres" + str(threshold) + "/" + folder_dir + "/" + source_dir + "/" + filename, 'w')
-
-    for i in range(len(clean_image)):
-        for j in range(len(clean_image[i])):
-            f.write(str(int(clean_image[i][j])) + " ")
-
-        f.write("\n")
-"""
